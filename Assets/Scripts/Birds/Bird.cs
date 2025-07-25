@@ -6,6 +6,7 @@ public class Bird : MonoBehaviour
     public string[] myConditions;
 
     public bool likesToBeQuiet;
+    public bool likesToBeClean;
 
     [HideInInspector] public BirdSlot myBirdSlot;
     private BirdSlot hoveredBirdSlot;
@@ -21,6 +22,7 @@ public class Bird : MonoBehaviour
 
     [HideInInspector] public bool isPredatory;
     [HideInInspector] public bool isNoisy;
+    [HideInInspector] public bool isDirty;
 
     public virtual void Awake()
     {
@@ -36,6 +38,7 @@ public class Bird : MonoBehaviour
 
         isPredatory = false;
         isNoisy = false;
+        isDirty = false;
     }
 
     public void ReturnPosition()
@@ -95,7 +98,28 @@ public class Bird : MonoBehaviour
             isNextToNoisyBirds = false;
         }
 
-        if (!isNextToNoisyBirds)
+        bool isNextToDirtyBirds = false;
+
+        if (likesToBeClean)
+        {
+            if (myBirdSlot)
+            {
+                foreach (BirdSlot AdjacentBirdSlot in myBirdSlot.adjacentBirdSlots)
+                {
+                    if (AdjacentBirdSlot.myBird != null && AdjacentBirdSlot.myBird.isDirty)
+                    {
+                        isNextToDirtyBirds = true;
+                        break;
+                    }
+                }
+            }
+        }
+        else
+        {
+            isNextToDirtyBirds = false;
+        }
+
+        if (!isNextToNoisyBirds && !isNextToDirtyBirds)
             conditionGenerics = true;
     }
 
