@@ -1,6 +1,7 @@
 using UnityEngine;
 using FMODUnity;
 using Unity.VisualScripting;
+using FMOD.Studio;
 
 public class AudioManager : MonoBehaviour
 {
@@ -54,6 +55,11 @@ public class AudioManager : MonoBehaviour
         {
             Instance = this;
         }
+    }
+
+    public void StopAll()
+    {
+        RuntimeManager.GetBus("Bus:/").stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
     }
 
     #region Amb

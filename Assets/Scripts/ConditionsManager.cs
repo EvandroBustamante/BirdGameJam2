@@ -10,6 +10,7 @@ public class ConditionsManager : MonoBehaviour
 
     private Bird[] AllBirds;
     private bool allBirdsSatisfied;
+    private bool playSadSound = false;
     private bool runningFailCoroutine = false;
 
     private Button CompleteCheckButton;
@@ -27,12 +28,22 @@ public class ConditionsManager : MonoBehaviour
 
     public void CheckAllBirds()
     {
+        playSadSound = false;
         int birdsSatisfied = 0;
         foreach (Bird Bird in AllBirds)
         {
             Bird.CheckForConditionsMet();
             if (Bird.isSatisfied)
+            {
                 birdsSatisfied++;
+            }
+            else
+            {
+                if (Bird.myBirdSlot)
+                {
+                    playSadSound = true;
+                }
+            }
         }
 
         Debug.Log("Birds satisfied: " + birdsSatisfied + "/" + AllBirds.Length);
@@ -40,12 +51,21 @@ public class ConditionsManager : MonoBehaviour
         if(birdsSatisfied == AllBirds.Length)
         {
             allBirdsSatisfied = true;
-            AudioManager.Instance.PlayBirdHappy();
         }
         else
         {
             allBirdsSatisfied = false;
+        }
+
+        if (playSadSound)
+        {
             AudioManager.Instance.PlayBirdSad();
+            Debug.Log("Played bird sad");
+        }
+        else
+        {
+            AudioManager.Instance.PlayBirdHappy();
+            Debug.Log("Played bird happy");
         }
     }
 
@@ -78,6 +98,7 @@ public class ConditionsManager : MonoBehaviour
         AudioManager.Instance.PlayStageConfirm();
 
         yield return new WaitForSeconds(1f);
+        AudioManager.Instance.StopAll();
         SceneManager.LoadScene(nextLevel);
     }
 

@@ -37,7 +37,8 @@ public class DragAndDrop : MonoBehaviour
         if (hit.collider && hit.collider.CompareTag("Bird"))
         {
             draggedBird = hit.transform.GetComponent<Bird>();
-            draggedBird.GetComponent<Transform>().DOShakeScale(shakeEffectDuration, new Vector3(shakeEffectStrength, shakeEffectStrength, 0));
+            if(!DOTween.IsTweening(draggedBird.GetComponent<Transform>()))
+                draggedBird.GetComponent<Transform>().DOShakeScale(shakeEffectDuration, new Vector3(shakeEffectStrength, shakeEffectStrength, 0));
             isDragging = true;
             beginDragEvent.Invoke();
 

@@ -19,7 +19,7 @@ public class DialogueManager : MonoBehaviour
     private string playerName;
     private Dialogue dialoguePlaying;
 
-    private void Awake()
+    private void Start()
     {
         nextDialogueButton.onClick.AddListener(NextDialogue);
         inputFieldButton.onClick.AddListener(StartDialogue2);

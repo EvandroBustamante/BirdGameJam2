@@ -26,6 +26,7 @@ public class SceneButton : MonoBehaviour, IPointerEnterHandler
         AudioManager.Instance.PlayMenuConfirm();
 
         yield return new WaitForSeconds(1f);
+        AudioManager.Instance.StopAll();
         SceneManager.LoadScene(sceneName);
     }
 
