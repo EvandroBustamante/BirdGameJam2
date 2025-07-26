@@ -1,24 +1,24 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class ExitButton : MonoBehaviour, IPointerEnterHandler
+public class CreditsButton : MonoBehaviour, IPointerEnterHandler
 {
+    private Animator creditsPanel;
     private Button myButton;
 
     private void Awake()
     {
         myButton = GetComponent<Button>();
+        creditsPanel = GameObject.Find("CreditsPanel").GetComponent<Animator>();
         myButton.onClick.AddListener(OnButtonClick);
-
-        AudioManager.Instance.PlayMusicMenu();
     }
 
     private void OnButtonClick()
     {
-        Debug.Log("Application quit");
-        Application.Quit();
+        AudioManager.Instance.PlayMenuConfirm();
+        creditsPanel.SetTrigger("Toggle");
     }
 
     public void OnPointerEnter(PointerEventData eventData)

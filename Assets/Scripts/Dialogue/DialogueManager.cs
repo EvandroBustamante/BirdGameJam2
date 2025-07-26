@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,6 +13,7 @@ public class DialogueManager : MonoBehaviour
     public Dialogue dialogue;
     public Dialogue dialogue2;
     public bool isLevel1 = false;
+    public float dialogueTypeDelay;
 
     private int dialogueLinesIndex;
     private string playerName;
@@ -34,7 +36,7 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(true);
         dialogueLinesIndex = 0;
         string finalDialogue = dialoguePlaying.dialogueLines[dialogueLinesIndex].Replace("[PLAYERNAME]", playerName);
-        dialogueText.text = finalDialogue;
+        StartCoroutine(TypeSentence(finalDialogue));
         AudioManager.Instance.PlayDialoguePopUp();
     }
 
@@ -44,7 +46,8 @@ public class DialogueManager : MonoBehaviour
         {
             dialogueLinesIndex++;
             string finalDialogue = dialoguePlaying.dialogueLines[dialogueLinesIndex].Replace("[PLAYERNAME]", playerName);
-            dialogueText.text = finalDialogue;
+            StopAllCoroutines();
+            StartCoroutine(TypeSentence(finalDialogue));
             AudioManager.Instance.PlayDialogueNext();
         }
         else
@@ -57,6 +60,17 @@ public class DialogueManager : MonoBehaviour
                 isLevel1 = false;
                 inputField.gameObject.SetActive(true);
             }
+        }
+    }
+
+    private IEnumerator TypeSentence(string sentence)
+    {
+        dialogueText.text = "";
+        foreach (char letter in sentence.ToCharArray())
+        {
+            AudioManager.Instance.PlayDialogueText();
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(dialogueTypeDelay);
         }
     }
      private void StartDialogue2()
