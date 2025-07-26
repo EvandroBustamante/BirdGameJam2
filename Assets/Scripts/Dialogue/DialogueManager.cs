@@ -35,6 +35,7 @@ public class DialogueManager : MonoBehaviour
         dialogueLinesIndex = 0;
         string finalDialogue = dialoguePlaying.dialogueLines[dialogueLinesIndex].Replace("[PLAYERNAME]", playerName);
         dialogueText.text = finalDialogue;
+        AudioManager.Instance.PlayDialoguePopUp();
     }
 
     private void NextDialogue()
@@ -44,10 +45,12 @@ public class DialogueManager : MonoBehaviour
             dialogueLinesIndex++;
             string finalDialogue = dialoguePlaying.dialogueLines[dialogueLinesIndex].Replace("[PLAYERNAME]", playerName);
             dialogueText.text = finalDialogue;
+            AudioManager.Instance.PlayDialogueNext();
         }
         else
         {
             dialoguePanel.SetActive(false);
+            AudioManager.Instance.PlayDialogueClose();
 
             if (isLevel1)
             {

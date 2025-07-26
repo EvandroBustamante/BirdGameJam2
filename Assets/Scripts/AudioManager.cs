@@ -54,8 +54,6 @@ public class AudioManager : MonoBehaviour
         {
             Instance = this;
         }
-
-        PlayMusicMenu();
     }
 
     #region Amb

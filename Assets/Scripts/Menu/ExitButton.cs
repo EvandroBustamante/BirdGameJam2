@@ -10,6 +10,8 @@ public class ExitButton : MonoBehaviour
     {
         myButton = GetComponent<Button>();
         myButton.onClick.AddListener(OnButtonClick);
+
+        AudioManager.Instance.PlayMusicMenu();
     }
 
     private void OnButtonClick()

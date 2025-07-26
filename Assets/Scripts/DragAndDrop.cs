@@ -16,6 +16,12 @@ public class DragAndDrop : MonoBehaviour
     [HideInInspector] public UnityEvent beginDragEvent;
     [HideInInspector] public UnityEvent endDragEvent;
 
+    private void Awake()
+    {
+        AudioManager.Instance.PlayAmbDay();
+        AudioManager.Instance.PlayMusicLevelDay();
+    }
+
     private void Update()
     {
         if(isDragging && draggedBird)
@@ -34,6 +40,37 @@ public class DragAndDrop : MonoBehaviour
             draggedBird.GetComponent<Transform>().DOShakeScale(shakeEffectDuration, new Vector3(shakeEffectStrength, shakeEffectStrength, 0));
             isDragging = true;
             beginDragEvent.Invoke();
+
+            AudioManager.Instance.PlayDrag();
+
+            if(draggedBird is CorujinhaDoMato)
+            {
+                AudioManager.Instance.PlayCorujinhaDoMato();
+            }
+            else if (draggedBird is QueroQuero)
+            {
+                AudioManager.Instance.PlayQueroQuero();
+            }
+            else if (draggedBird is SairaLenco)
+            {
+                AudioManager.Instance.PlaySairaLenco();
+            }
+            else if (draggedBird is Tangara)
+            {
+                AudioManager.Instance.PlayTangara();
+            }
+            else if (draggedBird is TopetinhoVermelho)
+            {
+                AudioManager.Instance.PlayTopetinhoVermelho();
+            }
+            else if (draggedBird is UrubuDeCabecaVermelha)
+            {
+                //AudioManager.Instance.PlayUrubuDeCabecaVermelha();
+            }
+            else if (draggedBird is Carcara)
+            {
+                //AudioManager.Instance.PlayCarcara();
+            }
         }
     }
 
@@ -43,6 +80,7 @@ public class DragAndDrop : MonoBehaviour
         {
             draggedBird.ReturnPosition();
             draggedBird.GetComponent<Transform>().DOShakeScale(shakeEffectDuration, new Vector3(shakeEffectStrength, shakeEffectStrength, 0));
+            AudioManager.Instance.PlayDrop();
         }
         draggedBird = null;
         isDragging = false;

@@ -40,10 +40,12 @@ public class ConditionsManager : MonoBehaviour
         if(birdsSatisfied == AllBirds.Length)
         {
             allBirdsSatisfied = true;
+            AudioManager.Instance.PlayBirdHappy();
         }
         else
         {
             allBirdsSatisfied = false;
+            AudioManager.Instance.PlayBirdSad();
         }
     }
 
@@ -51,8 +53,7 @@ public class ConditionsManager : MonoBehaviour
     {
         if (allBirdsSatisfied)
         {
-            //Feddback de vitória
-            SceneManager.LoadScene(nextLevel);
+            StartCoroutine(SuccessTimer());
         }
         else
         {
@@ -63,12 +64,21 @@ public class ConditionsManager : MonoBehaviour
 
     private IEnumerator FailPopUpTimer()
     {
+        AudioManager.Instance.PlayStageFail();
         runningFailCoroutine = true;
         failPopUp.SetActive(true);
 
         yield return new WaitForSeconds(failPopUpTimeActive);
         failPopUp.SetActive(false);
         runningFailCoroutine = false;
+    }
+
+    private IEnumerator SuccessTimer()
+    {
+        AudioManager.Instance.PlayStageConfirm();
+
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(nextLevel);
     }
 
 }
