@@ -2307,6 +2307,7 @@ Transform:
   - {fileID: 973059216}
   - {fileID: 2027380435}
   - {fileID: 249973723}
+  - {fileID: 1848942892}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &627287725
@@ -5953,6 +5954,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1341676956
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 834902687131152648, guid: 948a15ccd54a83e4aaa46319e5e1749c, type: 3}
+      propertyPath: m_Name
+      value: "Carcar\xE1"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303102067552469025, guid: 948a15ccd54a83e4aaa46319e5e1749c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.2973914
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303102067552469025, guid: 948a15ccd54a83e4aaa46319e5e1749c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.771419
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303102067552469025, guid: 948a15ccd54a83e4aaa46319e5e1749c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303102067552469025, guid: 948a15ccd54a83e4aaa46319e5e1749c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303102067552469025, guid: 948a15ccd54a83e4aaa46319e5e1749c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303102067552469025, guid: 948a15ccd54a83e4aaa46319e5e1749c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303102067552469025, guid: 948a15ccd54a83e4aaa46319e5e1749c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303102067552469025, guid: 948a15ccd54a83e4aaa46319e5e1749c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303102067552469025, guid: 948a15ccd54a83e4aaa46319e5e1749c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303102067552469025, guid: 948a15ccd54a83e4aaa46319e5e1749c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 948a15ccd54a83e4aaa46319e5e1749c, type: 3}
 --- !u!1 &1344936615
 GameObject:
   m_ObjectHideFlags: 0
@@ -7683,6 +7741,246 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1848942891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1848942892}
+  - component: {fileID: 1848942893}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1848942892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848942891}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 594101033}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1848942893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848942891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f014ef3b740de4e8c0a2b6ec3be6f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambDay:
+    Guid:
+      Data1: 1107167729
+      Data2: 1124887205
+      Data3: 806251433
+      Data4: -869220160
+    Path: event:/amb/amb_day
+  musicMenu:
+    Guid:
+      Data1: -1875487967
+      Data2: 1299855438
+      Data3: 1450086541
+      Data4: -1076043099
+    Path: event:/music/mus_menu
+  musicLevelDay:
+    Guid:
+      Data1: 398895687
+      Data2: 1111797755
+      Data3: 1549042093
+      Data4: 1547994311
+    Path: event:/music/mus_level_day
+  corujinhaDoMato:
+    Guid:
+      Data1: -964640384
+      Data2: 1109104511
+      Data3: 1375227059
+      Data4: -2069284974
+    Path: event:/sfx/birds/sfx_bird_ corujinhadomato
+  queroQuero:
+    Guid:
+      Data1: 1306230786
+      Data2: 1213665381
+      Data3: 18417836
+      Data4: -580405969
+    Path: event:/sfx/birds/sfx_bird_ queroquero
+  sairaLenco:
+    Guid:
+      Data1: 755234243
+      Data2: 1131212716
+      Data3: 1823862964
+      Data4: -894074487
+    Path: event:/sfx/birds/sfx_bird_ sairadelenco
+  tangara:
+    Guid:
+      Data1: 1009198205
+      Data2: 1288552317
+      Data3: -1037211721
+      Data4: 2057988895
+    Path: event:/sfx/birds/sfx_bird_ tangara
+  topetinhoVermelho:
+    Guid:
+      Data1: 1211689030
+      Data2: 1087380146
+      Data3: -1288292462
+      Data4: -1802181702
+    Path: event:/sfx/birds/sfx_bird_ topetinhovermelho
+  birdHappy:
+    Guid:
+      Data1: 1142399173
+      Data2: 1214322906
+      Data3: 1684612281
+      Data4: -1506594150
+    Path: event:/sfx/gameplay/sfx_bird_happy
+  birdSad:
+    Guid:
+      Data1: -1591046379
+      Data2: 1296097502
+      Data3: -1476864097
+      Data4: -1446643705
+    Path: event:/sfx/gameplay/sfx_bird_sad
+  birdWaveFinish:
+    Guid:
+      Data1: 535184424
+      Data2: 1227879588
+      Data3: 1684186268
+      Data4: 18910249
+    Path: event:/sfx/gameplay/sfx_bird_wave_finish
+  birdWaveNew:
+    Guid:
+      Data1: 1489875010
+      Data2: 1311098133
+      Data3: 1653520293
+      Data4: 1074334882
+    Path: event:/sfx/gameplay/sfx_bird_wave_new
+  dialogueClose:
+    Guid:
+      Data1: -1706318801
+      Data2: 1118778002
+      Data3: 500263567
+      Data4: -1668848030
+    Path: event:/sfx/gameplay/sfx_dialogue_close
+  dialogueNext:
+    Guid:
+      Data1: -503124681
+      Data2: 1313009166
+      Data3: 1564526464
+      Data4: -276348384
+    Path: event:/sfx/gameplay/sfx_dialogue_next
+  dialoguePopUp:
+    Guid:
+      Data1: 852916712
+      Data2: 1225649272
+      Data3: -1485074041
+      Data4: 1421955004
+    Path: event:/sfx/gameplay/sfx_dialogue_popup
+  dialogueText:
+    Guid:
+      Data1: 1150119162
+      Data2: 1123041421
+      Data3: 237112967
+      Data4: -1474675254
+    Path: event:/sfx/gameplay/sfx_dialogue_text
+  drag:
+    Guid:
+      Data1: 111269910
+      Data2: 1149480799
+      Data3: 1010539703
+      Data4: -338679514
+    Path: event:/sfx/gameplay/sfx_drag
+  drop:
+    Guid:
+      Data1: -774882769
+      Data2: 1088727921
+      Data3: -624739656
+      Data4: 1092662353
+    Path: event:/sfx/gameplay/sfx_drop
+  stageConfirm:
+    Guid:
+      Data1: 1604497815
+      Data2: 1171150030
+      Data3: 682153662
+      Data4: 923024131
+    Path: event:/sfx/gameplay/sfx_stage_confirm
+  stageFail:
+    Guid:
+      Data1: -755873366
+      Data2: 1157738560
+      Data3: -176688969
+      Data4: 1222037846
+    Path: event:/sfx/gameplay/sfx_stage_fail
+  uiHover:
+    Guid:
+      Data1: 1165809215
+      Data2: 1207984173
+      Data3: 1911291812
+      Data4: -1222229582
+    Path: event:/sfx/ui/ui_hover
+  menuBack:
+    Guid:
+      Data1: -1005517654
+      Data2: 1267044160
+      Data3: 2028761485
+      Data4: 1251190804
+    Path: event:/sfx/ui/ui_menu_back
+  menuConfirm:
+    Guid:
+      Data1: 2086902944
+      Data2: 1282009211
+      Data3: -2053648470
+      Data4: -768219115
+    Path: event:/sfx/ui/ui_menu_confirm
+  menuFader:
+    Guid:
+      Data1: -982662467
+      Data2: 1202123182
+      Data3: -1299369598
+      Data4: -112082610
+    Path: event:/sfx/ui/ui_menu_fader
+  menuHover:
+    Guid:
+      Data1: 805674875
+      Data2: 1092200147
+      Data3: -1888540765
+      Data4: -1703662895
+    Path: event:/sfx/ui/ui_menu_hover
+  pause:
+    Guid:
+      Data1: 2091834890
+      Data2: 1115981581
+      Data3: -2033519439
+      Data4: -999369194
+    Path: event:/sfx/ui/ui_pause
+  uiReturn:
+    Guid:
+      Data1: -1806319058
+      Data2: 1182492621
+      Data3: -704580195
+      Data4: -796299089
+    Path: event:/sfx/ui/ui_return
+  uiSelect:
+    Guid:
+      Data1: 1344240615
+      Data2: 1313297400
+      Data3: -1741590347
+      Data4: -806621667
+    Path: event:/sfx/ui/ui_select
 --- !u!1 &1850956488
 GameObject:
   m_ObjectHideFlags: 0
@@ -9663,3 +9961,4 @@ SceneRoots:
   - {fileID: 291224747}
   - {fileID: 346309522}
   - {fileID: 43802258}
+  - {fileID: 1341676956}
