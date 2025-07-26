@@ -8791,7 +8791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shakeEffectStrength: 0.04
-  shakeEffectDuration: 0.5
+  shakeEffectDuration: 0.3
   beginDragEvent:
     m_PersistentCalls:
       m_Calls: []

@@ -453,8 +453,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../Bird Game Jam/Fmod/birdgamejam/birdgamejam.fspro
-  sourceBankPath: ../Bird Game Jam/Fmod/birdgamejam/Build
+  sourceProjectPath: ../BirdGameJam2FMOD/birdGameJamFMOD/birdgamejam.fspro
+  sourceBankPath: ../BirdGameJam2FMOD/birdGameJamFMOD/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -475,7 +475,8 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks: []
+  MasterBanks:
+  - Master
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
