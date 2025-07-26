@@ -1,12 +1,16 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.Events;
 
 public class DragAndDrop : MonoBehaviour
 {
     private Bird draggedBird;
     private bool isDragging;
     private Vector3 draggedTransform;
+
+    public UnityEvent beginDragEvent;
+    public UnityEvent endDragEvent;
 
     private void Update()
     {
@@ -24,6 +28,7 @@ public class DragAndDrop : MonoBehaviour
         {
             draggedBird = hit.transform.GetComponent<Bird>();
             isDragging = true;
+            beginDragEvent.Invoke();
         }
     }
 
@@ -33,6 +38,7 @@ public class DragAndDrop : MonoBehaviour
             draggedBird.ReturnPosition();
         draggedBird = null;
         isDragging = false;
+        endDragEvent.Invoke();
     }
 
 }
