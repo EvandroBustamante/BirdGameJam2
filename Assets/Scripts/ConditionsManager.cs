@@ -1,10 +1,16 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class ConditionsManager : MonoBehaviour
 {
+    public string nextLevel;
+    public float failPopUpTimeActive = 3.0f;
+
     private Bird[] AllBirds;
     private bool allBirdsSatisfied;
+    private bool runningFailCoroutine = false;
 
     private Button CompleteCheckButton;
     private GameObject failPopUp;
@@ -12,7 +18,11 @@ public class ConditionsManager : MonoBehaviour
     private void Awake()
     {
         AllBirds = FindObjectsByType<Bird>(FindObjectsSortMode.None);
-        //CompleteCheckButton = F
+        CompleteCheckButton = GameObject.Find("CompleteCheckButton").GetComponent<Button>();
+        failPopUp = GameObject.Find("FailPopUp");
+
+        CompleteCheckButton.onClick.AddListener(CompleteCheckButtonClick);
+        failPopUp.SetActive(false);
     }
 
     public void CheckAllBirds()
@@ -35,6 +45,30 @@ public class ConditionsManager : MonoBehaviour
         {
             allBirdsSatisfied = false;
         }
+    }
+
+    private void CompleteCheckButtonClick()
+    {
+        if (allBirdsSatisfied)
+        {
+            //Feddback de vitória
+            SceneManager.LoadScene(nextLevel);
+        }
+        else
+        {
+            if(!runningFailCoroutine)
+                StartCoroutine(FailPopUpTimer());
+        }
+    }
+
+    private IEnumerator FailPopUpTimer()
+    {
+        runningFailCoroutine = true;
+        failPopUp.SetActive(true);
+
+        yield return new WaitForSeconds(failPopUpTimeActive);
+        failPopUp.SetActive(false);
+        runningFailCoroutine = false;
     }
 
 }
