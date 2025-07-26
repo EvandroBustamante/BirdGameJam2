@@ -80,7 +80,8 @@ public class DragAndDrop : MonoBehaviour
         if (draggedBird)
         {
             draggedBird.ReturnPosition();
-            draggedBird.GetComponent<Transform>().DOShakeScale(shakeEffectDuration, new Vector3(shakeEffectStrength, shakeEffectStrength, 0));
+            if (!DOTween.IsTweening(draggedBird.GetComponent<Transform>()))
+                draggedBird.GetComponent<Transform>().DOShakeScale(shakeEffectDuration, new Vector3(shakeEffectStrength, shakeEffectStrength, 0));
             AudioManager.Instance.PlayDrop();
         }
         draggedBird = null;
