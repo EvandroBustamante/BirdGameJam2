@@ -188,7 +188,7 @@ GameObject:
   - component: {fileID: 6174956658094505268}
   - component: {fileID: 1461146117255971916}
   m_Layer: 0
-  m_Name: Gaviao
+  m_Name: Corujinha do Mato
   m_TagString: Bird
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -255,7 +255,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -8684649462845234735, guid: df3dc92e334ee514aaeae37c6a846557, type: 3}
+  m_Sprite: {fileID: -7280849524802785714, guid: 9ef9df5c80176cc40a1ff98b230f455e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -278,11 +278,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c58cf2bb9bd99a3488b70f7146ff3841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myName: Gaviao Pega Macaco
+  myName: Corujinha do Mato
   myConditions:
-  - "Deve ficar solit\xE1rio"
+  - "Deve ficar solit\xE1ria"
   - Prefere lugares escuros
+  - "\xC9 predador"
   likesToBeQuiet: 0
+  likesToBeClean: 0
+  doesntLikeDancing: 0
   myBirdSlot: {fileID: 0}
   conditionsManager: {fileID: 0}
   isSatisfied: 0
@@ -291,6 +294,8 @@ MonoBehaviour:
   conditionGenerics: 0
   isPredatory: 0
   isNoisy: 0
+  isDirty: 0
+  dances: 0
 --- !u!61 &6174956658094505268
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -329,7 +334,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5, y: 9.85}
+    oldSize: {x: 8.533334, y: 6.7466664}
     newSize: {x: 7.36, y: 6.74}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class GaviaoPegaMacaco : Bird
+public class CorujinhaDoMato : Bird
 {
-    //Gavião Pega Macaco
-    //Condição 1: solitário
+    //Corujinha do Mato
+    //Condição 1: solitária
     //Condição 2: lugar escuro
 
     //Comportamento: é predatório
