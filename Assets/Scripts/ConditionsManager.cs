@@ -60,12 +60,12 @@ public class ConditionsManager : MonoBehaviour
         if (playSadSound)
         {
             AudioManager.Instance.PlayBirdSad();
-            Debug.Log("Played bird sad");
+            //Debug.Log("Played bird sad");
         }
         else
         {
             AudioManager.Instance.PlayBirdHappy();
-            Debug.Log("Played bird happy");
+            //Debug.Log("Played bird happy");
         }
     }
 
