@@ -36,6 +36,7 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(true);
         dialogueLinesIndex = 0;
         string finalDialogue = dialoguePlaying.dialogueLines[dialogueLinesIndex].Replace("[PLAYERNAME]", playerName);
+        StopAllCoroutines();
         StartCoroutine(TypeSentence(finalDialogue));
         AudioManager.Instance.PlayDialoguePopUp();
     }
