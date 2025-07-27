@@ -4110,11 +4110,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64d49ee467f3fe3468999127093cb968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: bf99bb6b987c51d49a064e5967eae18d, type: 2}
+  dialogue: {fileID: 11400000, guid: fcb3196fe47b7eb4a98159ef245a83d3, type: 2}
   dialogue2: {fileID: 11400000, guid: 701145849094e344191fdd443e910eb9, type: 2}
-  isLevel1: 1
+  isLevel1: 0
   dialogueTypeDelay: 0.05
-  noDialogue: 1
+  noDialogue: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

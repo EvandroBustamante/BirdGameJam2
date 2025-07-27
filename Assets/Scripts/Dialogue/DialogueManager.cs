@@ -28,6 +28,8 @@ public class DialogueManager : MonoBehaviour
         nextDialogueButton = dialoguePanel.transform.Find("NextLineButton").GetComponent<Button>();
         inputField = GameObject.Find("DialogueInputField").GetComponent<TMP_InputField>();
         inputFieldButton = inputField.transform.Find("Ok").GetComponent<Button>();
+        if (FindFirstObjectByType<NameStorer>())
+            playerName = FindFirstObjectByType<NameStorer>().GetPlayerName();
 
         nextDialogueButton.onClick.AddListener(NextDialogue);
         inputFieldButton.onClick.AddListener(StartDialogue2);
@@ -87,6 +89,8 @@ public class DialogueManager : MonoBehaviour
      private void StartDialogue2()
     {
         playerName = inputField.text;
+        if (FindFirstObjectByType<NameStorer>())
+            FindFirstObjectByType<NameStorer>().SetPlayerName(playerName);
         inputField.gameObject.SetActive(false);
         StartDialogue(dialogue2);
     }
