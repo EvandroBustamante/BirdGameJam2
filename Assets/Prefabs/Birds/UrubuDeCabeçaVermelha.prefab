@@ -180,9 +180,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myName: "Urubu de Cabe\xE7a Vermelha"
   myConditions:
-  - Gosta de lugares iluminados
-  - Muito social
-  - Faz sujeira
+  - "O Urubu de Cabe\xE7a Vermelha \xE9 muito soci\xE1vel e adora espa\xE7os abertos
+    e amigos! Ele regurgita os ossos que ingere por isso faz muita sujeira!"
+  - 
+  - 
   likesToBeQuiet: 0
   likesToBeClean: 0
   doesntLikeDancing: 0
