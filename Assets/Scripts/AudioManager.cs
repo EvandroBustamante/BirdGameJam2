@@ -21,6 +21,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private EventReference tangara;
     [SerializeField] private EventReference topetinhoVermelho;
     [SerializeField] private EventReference urubuDeCabecaVermelha;
+    [SerializeField] private EventReference carcara;
 
     [Header("SFX Gameplay")]
     [SerializeField] private EventReference birdHappy;
@@ -111,6 +112,11 @@ public class AudioManager : MonoBehaviour
     public void PlayUrubuDeCabecaVermelha()
     {
         RuntimeManager.PlayOneShot(urubuDeCabecaVermelha);
+    }
+
+    public void PlayCarcara()
+    {
+        RuntimeManager.PlayOneShot(carcara);
     }
 
     #endregion

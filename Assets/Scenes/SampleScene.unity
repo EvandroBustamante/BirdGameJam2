@@ -8148,6 +8148,13 @@ MonoBehaviour:
       Data3: 2113769112
       Data4: 231832879
     Path: event:/sfx/birds/sfx_bird_ urubudecabecavermelha
+  carcara:
+    Guid:
+      Data1: 1096488585
+      Data2: 1141905296
+      Data3: 1867399558
+      Data4: 80882165
+    Path: event:/sfx/birds/sfx_bird_ carcara
   birdHappy:
     Guid:
       Data1: 1142399173

@@ -70,7 +70,7 @@ public class DragAndDrop : MonoBehaviour
             }
             else if (draggedBird is Carcara)
             {
-                //AudioManager.Instance.PlayCarcara();
+                AudioManager.Instance.PlayCarcara();
             }
         }
     }
