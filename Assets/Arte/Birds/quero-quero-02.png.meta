@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7123455d3a89cda49a722f2312abda1e
+guid: f266621f4c8775741aa40b96d47bd3c6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2474904561205333830
-    second: quero-quero-01_0
+      213: 2431442393944102155
+    second: quero-quero-02_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: quero-quero-01_0
+      name: quero-quero-02_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 332
-        height: 425
+        width: 348
+        height: 441
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab0bc580a6f57add0800000000000000
-      internalID: -2474904561205333830
+      spriteID: b051dd699f73eb120800000000000000
+      internalID: 2431442393944102155
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      quero-quero-01_0: -2474904561205333830
+      quero-quero-02_0: 2431442393944102155
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
