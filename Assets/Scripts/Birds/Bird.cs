@@ -9,10 +9,15 @@ public class Bird : MonoBehaviour
     public bool likesToBeClean;
     public bool doesntLikeDancing;
 
+    public Sprite spriteNormal;
+    public Sprite spriteHovering;
+    public Sprite spritePlaced;
+
     [HideInInspector] public BirdSlot myBirdSlot;
     private BirdSlot hoveredBirdSlot;
     private Vector3 startingPosition;
     private ConditionsSpeechBubble conditionUI;
+    private SpriteRenderer mySr;
     [HideInInspector] public ConditionsManager conditionsManager;
     [HideInInspector] public bool isSatisfied;
 
@@ -32,6 +37,8 @@ public class Bird : MonoBehaviour
         conditionUI = FindFirstObjectByType<ConditionsSpeechBubble>();
         conditionsManager = FindFirstObjectByType<ConditionsManager>();
         conditionsManager.OnAllBirdsSatisfied.AddListener(TurnOffEmojis);
+        if(transform.Find("Sprite"))
+            mySr = transform.Find("Sprite").GetComponent<SpriteRenderer>();
 
         emojiHappy = transform.Find("EmojiHappy").gameObject;
         emojiSad = transform.Find("EmojiSad").gameObject;
@@ -59,6 +66,9 @@ public class Bird : MonoBehaviour
             hoveredBirdSlot = null;
             myBirdSlot.myBird = this;
 
+            if (mySr && spritePlaced)
+                mySr.sprite = spritePlaced;
+
             transform.position = new Vector3(myBirdSlot.transform.position.x, myBirdSlot.transform.position.y, this.transform.position.z);
         }
         else
@@ -67,6 +77,9 @@ public class Bird : MonoBehaviour
                 myBirdSlot.myBird = null;
 
             myBirdSlot = null;
+
+            if (mySr && spriteNormal)
+                mySr.sprite = spriteNormal;
 
             transform.position = startingPosition;
             emojiHappy.SetActive(false);
@@ -164,11 +177,22 @@ public class Bird : MonoBehaviour
     private void OnMouseOver()
     {
         conditionUI.ShowConditions(this);
+
+        if (mySr && spriteHovering)
+            mySr.sprite = spriteHovering;
     }
 
     private void OnMouseExit()
     {
         conditionUI.Clear();
+
+        if(mySr && spriteNormal && spritePlaced)
+        {
+            if (myBirdSlot)
+                mySr.sprite = spritePlaced;
+            else
+                mySr.sprite = spriteNormal;
+        }
     }
 
     private void TurnOffEmojis()
