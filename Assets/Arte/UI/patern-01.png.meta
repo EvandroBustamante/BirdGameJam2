@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: bb0a23d78558d804db563a981b959a89
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8880569099248150915
+    second: patern-01_0
+  - first:
+      213: -2273491100175533295
+    second: patern-01_1
+  - first:
+      213: 3064714936823066920
+    second: patern-01_2
+  - first:
+      213: 1508774880813446830
+    second: patern-01_3
+  - first:
+      213: -2553510437285096984
+    second: patern-01_4
+  - first:
+      213: -2040489914721937657
+    second: patern-01_5
+  - first:
+      213: -8267536708387726353
+    second: patern-01_6
+  - first:
+      213: -3407999090534914813
+    second: patern-01_7
+  - first:
+      213: 424051072105310504
+    second: patern-01_8
+  - first:
+      213: -120827881189871492
+    second: patern-01_9
+  - first:
+      213: 5591198582068948437
+    second: patern-01_10
+  - first:
+      213: 3747104948018304658
+    second: patern-01_11
+  - first:
+      213: -4447066053875929826
+    second: patern-01_12
+  - first:
+      213: 651235506048504692
+    second: patern-01_13
+  - first:
+      213: 3017273557870846130
+    second: patern-01_14
+  - first:
+      213: -2334972573841429908
+    second: patern-01_15
+  - first:
+      213: -7171878391496676414
+    second: patern-01_16
+  - first:
+      213: 2678916900603558085
+    second: patern-01_17
+  - first:
+      213: -1549209717790532208
+    second: patern-01_18
+  - first:
+      213: 4005426638063733309
+    second: patern-01_19
+  - first:
+      213: 5235835890521926461
+    second: patern-01_20
+  - first:
+      213: 7678139793307159604
+    second: patern-01_21
+  - first:
+      213: -7684005780751109316
+    second: patern-01_22
+  - first:
+      213: -3609041965544440828
+    second: patern-01_23
+  - first:
+      213: 6116102863215224608
+    second: patern-01_24
+  - first:
+      213: -288367626435117523
+    second: patern-01_25
+  - first:
+      213: 2050815602095268349
+    second: patern-01_26
+  - first:
+      213: 8526880375475359572
+    second: patern-01_27
+  - first:
+      213: -2926812554272910498
+    second: patern-01_28
+  - first:
+      213: -710415855839773895
+    second: patern-01_29
+  - first:
+      213: -8626887437025973510
+    second: patern-01_30
+  - first:
+      213: -3896219948005137790
+    second: patern-01_31
+  - first:
+      213: -7371163196717575131
+    second: patern-01_32
+  - first:
+      213: 2260871847333081805
+    second: patern-01_33
+  - first:
+      213: 1762233209513586248
+    second: patern-01_34
+  - first:
+      213: 4990039326407813064
+    second: patern-01_35
+  - first:
+      213: -4879958886852556782
+    second: patern-01_36
+  - first:
+      213: 1806146071960596301
+    second: patern-01_37
+  - first:
+      213: 3261990007259672969
+    second: patern-01_38
+  - first:
+      213: 5748398139501802791
+    second: patern-01_39
+  - first:
+      213: -4226082889327282397
+    second: patern-01_40
+  - first:
+      213: -4189942727833784450
+    second: patern-01_41
+  - first:
+      213: -8164735065233751513
+    second: patern-01_42
+  - first:
+      213: 101997319407717992
+    second: patern-01_43
+  - first:
+      213: -2503445596159926998
+    second: patern-01_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: patern-01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1772
+        width: 107
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3892ff36b8e1e3b70800000000000000
+      internalID: 8880569099248150915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1675
+        width: 271
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b760ec3efe270e0800000000000000
+      internalID: -2273491100175533295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_2
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1675
+        width: 333
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8213c2b5ffd088a20800000000000000
+      internalID: 3064714936823066920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_3
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1675
+        width: 274
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6fae0a2ce30f410800000000000000
+      internalID: 1508774880813446830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_4
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1675
+        width: 313
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e19e5f49cb109cd0800000000000000
+      internalID: -2553510437285096984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_5
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1675
+        width: 206
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7075b39cb39bea3e0800000000000000
+      internalID: -2040489914721937657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_6
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 1675
+        width: 252
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb1c01ca2fc34d80800000000000000
+      internalID: -8267536708387726353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_7
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 1675
+        width: 271
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305efcd22ea54b0d0800000000000000
+      internalID: -3407999090534914813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_8
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 1675
+        width: 333
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829e57f043882e500800000000000000
+      internalID: 424051072105310504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_9
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1675
+        width: 274
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70f6b6aeabb25ef0800000000000000
+      internalID: -120827881189871492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_10
+      rect:
+        serializedVersion: 2
+        x: 3661
+        y: 1675
+        width: 179
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd23e8ac7de79d40800000000000000
+      internalID: 5591198582068948437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1233
+        width: 116
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2965db2e814600430800000000000000
+      internalID: 3747104948018304658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_12
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1152
+        width: 274
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1de60e4cf8d842c0800000000000000
+      internalID: -4447066053875929826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_13
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1152
+        width: 313
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473942b0e37a90900800000000000000
+      internalID: 651235506048504692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_14
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1152
+        width: 206
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0221f80528fd920800000000000000
+      internalID: 3017273557870846130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_15
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 1152
+        width: 252
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ae6e7b0d2889fd0800000000000000
+      internalID: -2334972573841429908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_16
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1152
+        width: 271
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb6a86e99e587c90800000000000000
+      internalID: -7171878391496676414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_17
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 1152
+        width: 333
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8f3434abc6d2520800000000000000
+      internalID: 2678916900603558085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_18
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 1152
+        width: 274
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d138048f9108ae0800000000000000
+      internalID: -1549209717790532208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_19
+      rect:
+        serializedVersion: 2
+        x: 2848
+        y: 1152
+        width: 313
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a0daf3e42269730800000000000000
+      internalID: 4005426638063733309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_20
+      rect:
+        serializedVersion: 2
+        x: 3260
+        y: 1152
+        width: 206
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3becc4700d69a840800000000000000
+      internalID: 5235835890521926461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_21
+      rect:
+        serializedVersion: 2
+        x: 3661
+        y: 1152
+        width: 179
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c4dd3267b3e8a60800000000000000
+      internalID: 7678139793307159604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1178
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33384a347dec5590800000000000000
+      internalID: -7684005780751109316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cfe30347b1aedc0800000000000000
+      internalID: -3609041965544440828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_24
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 634
+        width: 206
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02761bb4623c0e450800000000000000
+      internalID: 6116102863215224608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_25
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 634
+        width: 313
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ebc9deb238ffbf0800000000000000
+      internalID: -288367626435117523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_26
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 634
+        width: 274
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1a7b6ace5f57c10800000000000000
+      internalID: 2050815602095268349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_27
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 634
+        width: 333
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f457e2680955670800000000000000
+      internalID: 8526880375475359572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 634
+        width: 271
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53d8622d7fd167d0800000000000000
+      internalID: -2926812554272910498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_29
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 634
+        width: 252
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b7dd50b881426f0800000000000000
+      internalID: -710415855839773895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_30
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 634
+        width: 206
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa69ce4593274880800000000000000
+      internalID: -8626887437025973510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_31
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 634
+        width: 313
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282ec50b998dde9c0800000000000000
+      internalID: -3896219948005137790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_32
+      rect:
+        serializedVersion: 2
+        x: 3011
+        y: 634
+        width: 274
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524573e602e54b990800000000000000
+      internalID: -7371163196717575131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_33
+      rect:
+        serializedVersion: 2
+        x: 3384
+        y: 634
+        width: 456
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc238fe67fa306f10800000000000000
+      internalID: 2260871847333081805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_34
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 93
+        width: 271
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e247074c5b47810800000000000000
+      internalID: 1762233209513586248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_35
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 93
+        width: 252
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c764c9345e204540800000000000000
+      internalID: 4990039326407813064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_36
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 111
+        width: 206
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21884ae5f37e64cb0800000000000000
+      internalID: -4879958886852556782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_37
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 111
+        width: 313
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fada77848b01910800000000000000
+      internalID: 1806146071960596301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_38
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 111
+        width: 274
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981369bf0aae44d20800000000000000
+      internalID: 3261990007259672969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_39
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 111
+        width: 333
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725758cc6a966cf40800000000000000
+      internalID: 5748398139501802791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_40
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 111
+        width: 271
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3277a4eb000f955c0800000000000000
+      internalID: -4226082889327282397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_41
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 111
+        width: 252
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f6c3ec9455ad5c0800000000000000
+      internalID: -4189942727833784450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_42
+      rect:
+        serializedVersion: 2
+        x: 3147
+        y: 111
+        width: 206
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722019f77b801be80800000000000000
+      internalID: -8164735065233751513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_43
+      rect:
+        serializedVersion: 2
+        x: 3452
+        y: 111
+        width: 313
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ec657850e5a6100800000000000000
+      internalID: 101997319407717992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patern-01_44
+      rect:
+        serializedVersion: 2
+        x: 3824
+        y: 120
+        width: 16
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d1f5e7e79f14dd0800000000000000
+      internalID: -2503445596159926998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      patern-01_0: 8880569099248150915
+      patern-01_1: -2273491100175533295
+      patern-01_10: 5591198582068948437
+      patern-01_11: 3747104948018304658
+      patern-01_12: -4447066053875929826
+      patern-01_13: 651235506048504692
+      patern-01_14: 3017273557870846130
+      patern-01_15: -2334972573841429908
+      patern-01_16: -7171878391496676414
+      patern-01_17: 2678916900603558085
+      patern-01_18: -1549209717790532208
+      patern-01_19: 4005426638063733309
+      patern-01_2: 3064714936823066920
+      patern-01_20: 5235835890521926461
+      patern-01_21: 7678139793307159604
+      patern-01_22: -7684005780751109316
+      patern-01_23: -3609041965544440828
+      patern-01_24: 6116102863215224608
+      patern-01_25: -288367626435117523
+      patern-01_26: 2050815602095268349
+      patern-01_27: 8526880375475359572
+      patern-01_28: -2926812554272910498
+      patern-01_29: -710415855839773895
+      patern-01_3: 1508774880813446830
+      patern-01_30: -8626887437025973510
+      patern-01_31: -3896219948005137790
+      patern-01_32: -7371163196717575131
+      patern-01_33: 2260871847333081805
+      patern-01_34: 1762233209513586248
+      patern-01_35: 4990039326407813064
+      patern-01_36: -4879958886852556782
+      patern-01_37: 1806146071960596301
+      patern-01_38: 3261990007259672969
+      patern-01_39: 5748398139501802791
+      patern-01_4: -2553510437285096984
+      patern-01_40: -4226082889327282397
+      patern-01_41: -4189942727833784450
+      patern-01_42: -8164735065233751513
+      patern-01_43: 101997319407717992
+      patern-01_44: -2503445596159926998
+      patern-01_5: -2040489914721937657
+      patern-01_6: -8267536708387726353
+      patern-01_7: -3407999090534914813
+      patern-01_8: 424051072105310504
+      patern-01_9: -120827881189871492
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
