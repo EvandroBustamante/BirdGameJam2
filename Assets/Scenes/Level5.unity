@@ -1196,6 +1196,10 @@ PrefabInstance:
       propertyPath: doesntLikeDancing
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 371963370534922915, guid: 8ba7279c7c51d7048a5768bd4b9ddbb7, type: 3}
+      propertyPath: 'myConditions.Array.data[1]'
+      value: "Um passarinho me contou que ele n\xE3o \xE9 apreciador de dan\xE7a!"
+      objectReference: {fileID: 0}
     - target: {fileID: 1045686409709081218, guid: 8ba7279c7c51d7048a5768bd4b9ddbb7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.57
@@ -5393,6 +5397,10 @@ PrefabInstance:
     - target: {fileID: 2991200300545632905, guid: 96538adce4554d6448bd4a011e4d2dd5, type: 3}
       propertyPath: likesToBeQuiet
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2991200300545632905, guid: 96538adce4554d6448bd4a011e4d2dd5, type: 3}
+      propertyPath: 'myConditions.Array.data[1]'
+      value: "Sil\xEAncio no tribunal! Esse da\xED n\xE3o \xE9 muito f\xE3 de barulho!"
       objectReference: {fileID: 0}
     - target: {fileID: 8303102067552469025, guid: 96538adce4554d6448bd4a011e4d2dd5, type: 3}
       propertyPath: m_LocalPosition.x

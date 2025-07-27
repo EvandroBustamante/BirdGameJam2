@@ -368,12 +368,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myName: Corujinha do Mato
   myConditions:
-  - "Deve ficar solit\xE1ria"
-  - Prefere lugares escuros
-  - "\xC9 predador"
+  - A Corujinha do Mato precisa de um lugar escuro para descansar e detesta companhia!
+  - 
+  - 
   likesToBeQuiet: 0
   likesToBeClean: 0
   doesntLikeDancing: 0
+  spriteNormal: {fileID: 0}
+  spriteHovering: {fileID: 0}
+  spritePlaced: {fileID: 0}
   myBirdSlot: {fileID: 0}
   conditionsManager: {fileID: 0}
   isSatisfied: 0

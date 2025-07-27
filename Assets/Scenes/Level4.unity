@@ -3584,11 +3584,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2991200300545632905, guid: 96538adce4554d6448bd4a011e4d2dd5, type: 3}
       propertyPath: myConditions.Array.size
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2991200300545632905, guid: 96538adce4554d6448bd4a011e4d2dd5, type: 3}
+      propertyPath: 'myConditions.Array.data[1]'
+      value: "Um passarinho me contou que elen\xE3o \xE9 apreciador de dan\xE7a!"
       objectReference: {fileID: 0}
     - target: {fileID: 2991200300545632905, guid: 96538adce4554d6448bd4a011e4d2dd5, type: 3}
       propertyPath: 'myConditions.Array.data[2]'
-      value: nao gosta de barulho
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8303102067552469025, guid: 96538adce4554d6448bd4a011e4d2dd5, type: 3}
       propertyPath: m_LocalPosition.x

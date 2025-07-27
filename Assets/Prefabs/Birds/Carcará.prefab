@@ -265,11 +265,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba2a488058b1df43bf50e3e26c3662e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myName: "Carcar\xE1"
+  myName: 
   myConditions:
-  - Deve ficar sozinho
-  - Prefere o claro
-  - Predador
+  - "O Carcar\xE1 \xE9 uma ave de rapina muito impressionante! Adora lugares abertos
+    mas cuidado para n\xE3o o colocar perto das aves menores!"
+  - 
+  - 
   likesToBeQuiet: 0
   likesToBeClean: 0
   doesntLikeDancing: 0

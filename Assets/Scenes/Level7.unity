@@ -4399,6 +4399,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Sa\xEDra-Len\xE7o"
       objectReference: {fileID: 0}
+    - target: {fileID: 3810864288462245707, guid: b8749ea2ec21126469be4302e21b5c82, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4790203892395830268, guid: b8749ea2ec21126469be4302e21b5c82, type: 3}
       propertyPath: likesToBeClean
       value: 1
@@ -4407,13 +4411,25 @@ PrefabInstance:
       propertyPath: likesToBeQuiet
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4790203892395830268, guid: b8749ea2ec21126469be4302e21b5c82, type: 3}
+      propertyPath: myConditions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790203892395830268, guid: b8749ea2ec21126469be4302e21b5c82, type: 3}
+      propertyPath: 'myConditions.Array.data[1]'
+      value: "Sil\xEAncio no tribunal! Essa da\xED n\xE3o \xE9 muito f\xE3 de barulho!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790203892395830268, guid: b8749ea2ec21126469be4302e21b5c82, type: 3}
+      propertyPath: 'myConditions.Array.data[2]'
+      value: "As aves s\xE3o muito limpas, sujeira n\xE3o \xE9 seu forte!"
+      objectReference: {fileID: 0}
     - target: {fileID: 8303102067552469025, guid: b8749ea2ec21126469be4302e21b5c82, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.46
+      value: 0.76
       objectReference: {fileID: 0}
     - target: {fileID: 8303102067552469025, guid: b8749ea2ec21126469be4302e21b5c82, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.22
+      value: -1.35
       objectReference: {fileID: 0}
     - target: {fileID: 8303102067552469025, guid: b8749ea2ec21126469be4302e21b5c82, type: 3}
       propertyPath: m_LocalPosition.z

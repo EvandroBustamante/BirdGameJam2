@@ -267,8 +267,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myName: Topetinho Vermelho
   myConditions:
-  - "n\xE3o pode estar perto de outro topetinho vermelho"
-  - precisa estar perto da flor
+  - "O Beija Flor Topetinho Vermelho \xE9 muito territorialista com as suas flores,
+    cuidado pra n\xE3o colocar dois juntos!"
+  - 
   likesToBeQuiet: 0
   likesToBeClean: 0
   doesntLikeDancing: 0

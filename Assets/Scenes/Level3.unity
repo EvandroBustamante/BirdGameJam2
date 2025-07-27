@@ -5539,8 +5539,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5046943270182033601, guid: 2db4322cbe7ac314caba3605d0a1bb64, type: 3}
+      propertyPath: myConditions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046943270182033601, guid: 2db4322cbe7ac314caba3605d0a1bb64, type: 3}
       propertyPath: 'myConditions.Array.data[1]'
-      value: Muito social, nao gosta de barulho
+      value: "Sil\xEAncio no tribunal! Esse da\xED n\xE3o \xE9 muito f\xE3 de barulho!"
       objectReference: {fileID: 0}
     - target: {fileID: 8303102067552469025, guid: 2db4322cbe7ac314caba3605d0a1bb64, type: 3}
       propertyPath: m_LocalPosition.x

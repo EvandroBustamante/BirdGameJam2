@@ -179,11 +179,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myName: "Tangar\xE1"
   myConditions:
-  - "Deve ficar longe dos predat\xF3rios"
-  - "Gosta de dan\xE7ar"
+  - "O Tangar\xE1 faz as dan\xE7as mais animadas! Cuidado para n\xE3o o colocar perto
+    de predadores!"
+  - 
   likesToBeQuiet: 0
   likesToBeClean: 0
   doesntLikeDancing: 0
+  spriteNormal: {fileID: 0}
+  spriteHovering: {fileID: 0}
+  spritePlaced: {fileID: 0}
   myBirdSlot: {fileID: 0}
   conditionsManager: {fileID: 0}
   isSatisfied: 0

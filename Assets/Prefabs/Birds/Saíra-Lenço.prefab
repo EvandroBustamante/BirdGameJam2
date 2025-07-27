@@ -180,11 +180,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myName: "Sa\xEDra-Len\xE7o"
   myConditions:
-  - "N\xE3o pode estar perto de predat\xF3rios"
-  - "Quer estar perto da \xE1gua"
+  - "A Sa\xEDra de Len\xE7o adora \xE1gua pra descansar! Cuidado para n\xE3o a colocar
+    perto de predadores!"
+  - 
   likesToBeQuiet: 0
   likesToBeClean: 0
   doesntLikeDancing: 0
+  spriteNormal: {fileID: 0}
+  spriteHovering: {fileID: 0}
+  spritePlaced: {fileID: 0}
   myBirdSlot: {fileID: 0}
   conditionsManager: {fileID: 0}
   isSatisfied: 0
@@ -453,6 +457,6 @@ SpriteRenderer:
   m_Size: {x: 7.36, y: 6.74}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
