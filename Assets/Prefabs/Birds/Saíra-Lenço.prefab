@@ -186,9 +186,9 @@ MonoBehaviour:
   likesToBeQuiet: 0
   likesToBeClean: 0
   doesntLikeDancing: 0
-  spriteNormal: {fileID: 0}
-  spriteHovering: {fileID: 0}
-  spritePlaced: {fileID: 0}
+  spriteNormal: {fileID: -4418309313240266563, guid: 2d3764f947eea1142afdcab07c9fc397, type: 3}
+  spriteHovering: {fileID: -6827008880252575943, guid: 5e95dfe1eaa4e824caa5bd0f28dade34, type: 3}
+  spritePlaced: {fileID: -8399434809037956765, guid: 000043d7ae4c7e843ba3e63fc3b970e1, type: 3}
   myBirdSlot: {fileID: 0}
   conditionsManager: {fileID: 0}
   isSatisfied: 0
@@ -449,14 +449,14 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 4852500886143089286, guid: 680dde46ae3d83849a7f5fbbdc908638, type: 3}
+  m_Sprite: {fileID: -4418309313240266563, guid: 2d3764f947eea1142afdcab07c9fc397, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 7.36, y: 6.74}
+  m_Size: {x: 2.94, y: 2.49}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0

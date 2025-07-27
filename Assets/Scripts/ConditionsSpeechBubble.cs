@@ -12,7 +12,7 @@ public class ConditionsSpeechBubble : MonoBehaviour
 
     private void Awake()
     {
-        myImage = GetComponent<Image>();
+        myImage = transform.Find("Bubble").GetComponent<Image>();
         //birdName = transform.Find("BirdName").GetComponent<TextMeshProUGUI>();
         birdConditions = transform.Find("BirdConditions").GetComponent<TextMeshProUGUI>();
 
