@@ -37,7 +37,7 @@ public class ConditionsSpeechBubble : MonoBehaviour
             string newText = "";
             foreach (string Condition in hoveredBird.myConditions)
             {
-                newText += "- " + Condition + "\n";
+                newText += Condition + "\n";
             }
             birdConditions.text = newText;
 
