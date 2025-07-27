@@ -4,7 +4,7 @@ using TMPro;
 
 public class ConditionsSpeechBubble : MonoBehaviour
 {
-    private Image myImage;
+    private GameObject bubble;
     //private TextMeshProUGUI birdName;
     private TextMeshProUGUI birdConditions;
 
@@ -12,7 +12,7 @@ public class ConditionsSpeechBubble : MonoBehaviour
 
     private void Awake()
     {
-        myImage = transform.Find("Bubble").GetComponent<Image>();
+        bubble = transform.Find("Bubble").gameObject;
         //birdName = transform.Find("BirdName").GetComponent<TextMeshProUGUI>();
         birdConditions = transform.Find("BirdConditions").GetComponent<TextMeshProUGUI>();
 
@@ -21,7 +21,7 @@ public class ConditionsSpeechBubble : MonoBehaviour
 
     public void Clear()
     {
-        myImage.enabled = false;
+        bubble.SetActive(false);
         //birdName.enabled = false;
         birdConditions.enabled = false;
 
@@ -43,7 +43,7 @@ public class ConditionsSpeechBubble : MonoBehaviour
 
             //birdName.enabled = true;
             birdConditions.enabled = true;
-            myImage.enabled = true;
+            bubble.SetActive(true);
         }
     }
 }

@@ -13,4 +13,9 @@ MonoBehaviour:
   m_Name: Level2
   m_EditorClassIdentifier: 
   dialogueLines:
-  - 'Teste: [PLAYERNAME]'
+  - "Onde estava minha cabe\xE7a, esqueci de te dizer! Como voc\xEA j\xE1 deve ter
+    percebido, nem sempre todos os espa\xE7os do viveiro estar\xE3o dispon\xEDveis
+    para as aves!"
+  - "Eu sei que isso adiciona um pouco de dificuldade nas suas tarefas, mas devemos
+    trabalhar com o que temos n\xE9? Pense nisso como um desafio saud\xE1vel do dia
+    a dia!"

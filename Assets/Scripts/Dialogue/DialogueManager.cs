@@ -2,6 +2,7 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -20,6 +21,8 @@ public class DialogueManager : MonoBehaviour
     private int dialogueLinesIndex;
     private string playerName;
     private Dialogue dialoguePlaying;
+
+    [HideInInspector] public UnityEvent OnDialogueEnd;
 
     private void Start()
     {
@@ -67,6 +70,7 @@ public class DialogueManager : MonoBehaviour
             dialoguePanel.SetActive(false);
             StopAllCoroutines();
             AudioManager.Instance.PlayDialogueClose();
+            OnDialogueEnd.Invoke();
 
             if (isLevel1)
             {

@@ -1380,6 +1380,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 854781876414883314, guid: 3e1e2fb2bf1375a4b85896fde1d3726f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5269286541766952613, guid: 4ca0221a5fc24f8428682472cd817f25, type: 3}
     - target: {fileID: 6353471765510902090, guid: 3e1e2fb2bf1375a4b85896fde1d3726f, type: 3}
       propertyPath: m_Camera
       value: 
@@ -4115,6 +4119,9 @@ MonoBehaviour:
   isLevel1: 0
   dialogueTypeDelay: 0.05
   noDialogue: 0
+  OnDialogueEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
