@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d824680de7bcefb4989c678ae8553055
+guid: ac2b5b1ca6ca14c43b1eaa26405cea81
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4361975765988169950
-    second: corujinhadomato-01_0
+      213: -2915916163157030372
+    second: corujinha-03_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: corujinhadomato-01_0
+      name: corujinha-03_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 258
-        height: 421
+        width: 265
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 227a96dc6262773c0800000000000000
-      internalID: -4361975765988169950
+      spriteID: c1a8434e2b59887d0800000000000000
+      internalID: -2915916163157030372
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      corujinhadomato-01_0: -4361975765988169950
+      corujinha-03_0: -2915916163157030372
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
