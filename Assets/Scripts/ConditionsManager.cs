@@ -10,6 +10,7 @@ public class ConditionsManager : MonoBehaviour
 
     private Bird[] AllBirds;
     private bool allBirdsSatisfied;
+    private bool playSadSound = false;
     private bool runningFailCoroutine = false;
 
     private Button CompleteCheckButton;
@@ -27,12 +28,22 @@ public class ConditionsManager : MonoBehaviour
 
     public void CheckAllBirds()
     {
+        playSadSound = false;
         int birdsSatisfied = 0;
         foreach (Bird Bird in AllBirds)
         {
             Bird.CheckForConditionsMet();
             if (Bird.isSatisfied)
+            {
                 birdsSatisfied++;
+            }
+            else
+            {
+                if (Bird.myBirdSlot)
+                {
+                    playSadSound = true;
+                }
+            }
         }
 
         Debug.Log("Birds satisfied: " + birdsSatisfied + "/" + AllBirds.Length);
@@ -45,14 +56,24 @@ public class ConditionsManager : MonoBehaviour
         {
             allBirdsSatisfied = false;
         }
+
+        if (playSadSound)
+        {
+            AudioManager.Instance.PlayBirdSad();
+            //Debug.Log("Played bird sad");
+        }
+        else
+        {
+            AudioManager.Instance.PlayBirdHappy();
+            //Debug.Log("Played bird happy");
+        }
     }
 
     private void CompleteCheckButtonClick()
     {
         if (allBirdsSatisfied)
         {
-            //Feddback de vitória
-            SceneManager.LoadScene(nextLevel);
+            StartCoroutine(SuccessTimer());
         }
         else
         {
@@ -63,12 +84,22 @@ public class ConditionsManager : MonoBehaviour
 
     private IEnumerator FailPopUpTimer()
     {
+        AudioManager.Instance.PlayStageFail();
         runningFailCoroutine = true;
         failPopUp.SetActive(true);
 
         yield return new WaitForSeconds(failPopUpTimeActive);
         failPopUp.SetActive(false);
         runningFailCoroutine = false;
+    }
+
+    private IEnumerator SuccessTimer()
+    {
+        AudioManager.Instance.PlayStageConfirm();
+
+        yield return new WaitForSeconds(1f);
+        AudioManager.Instance.StopAll();
+        SceneManager.LoadScene(nextLevel);
     }
 
 }

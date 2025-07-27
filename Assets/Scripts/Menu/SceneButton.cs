@@ -1,8 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.Collections;
+using UnityEngine.EventSystems;
 
-public class SceneButton : MonoBehaviour
+public class SceneButton : MonoBehaviour, IPointerEnterHandler
 {
     public string sceneName;
 
@@ -16,6 +18,20 @@ public class SceneButton : MonoBehaviour
 
     private void OnButtonClick()
     {
+        StartCoroutine(LoadScene());
+    }
+
+    private IEnumerator LoadScene()
+    {
+        AudioManager.Instance.PlayMenuConfirm();
+
+        yield return new WaitForSeconds(1f);
+        AudioManager.Instance.StopAll();
         SceneManager.LoadScene(sceneName);
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        AudioManager.Instance.PlayMenuHover();
     }
 }
