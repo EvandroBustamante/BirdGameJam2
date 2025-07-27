@@ -2104,6 +2104,9 @@ MonoBehaviour:
   isLevel1: 1
   dialogueTypeDelay: 0.03
   noDialogue: 1
+  OnDialogueEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &784086936
 GameObject:
   m_ObjectHideFlags: 0
@@ -5829,7 +5832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db2386eeeb8f87940bc5667c2ee09355, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: MainMenu
+  nextLevel: FinalScene
   failPopUpTimeActive: 3
   poofVFX: {fileID: 1322436022749330, guid: 89d89edc52e60ae4dbe713c2b7b1252e, type: 3}
   OnAllBirdsSatisfied:
