@@ -886,7 +886,7 @@ MonoBehaviour:
   dialogue: {fileID: 11400000, guid: bf99bb6b987c51d49a064e5967eae18d, type: 2}
   dialogue2: {fileID: 11400000, guid: 701145849094e344191fdd443e910eb9, type: 2}
   isLevel1: 1
-  dialogueTypeDelay: 0.05
+  dialogueTypeDelay: 0.03
 --- !u!1001 &276344353
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3272,7 +3272,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Name
+  m_text: 'Leticia
 
 '
   m_isRightToLeft: 0

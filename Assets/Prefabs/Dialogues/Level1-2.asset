@@ -13,5 +13,19 @@ MonoBehaviour:
   m_Name: Level1-2
   m_EditorClassIdentifier: 
   dialogueLines:
-  - Oi, [PLAYERNAME]!
-  - Tudo bem, [PLAYERNAME]?
+  - "Muito prazer, [PLAYERNAME]! De novo, muito obrigada mesmo pela ajuda, eu ando
+    t\xE3o preocupada com tudo que quase n\xE3o tenho tido tempo pra comer. Houve
+    um grande inc\xEAndio nos arredores e agora v\xE1rios dos nossos animais est\xE3o
+    aqui para se recuperarem antes de serem reintroduzidos na natureza!"
+  - "Nosso objetivo \xE9 garantir que todos eles tenham uma estadia tranquila, que
+    respeite suas necessidades para que eles voltem para natureza bem alimentados
+    e saud\xE1veis!"
+  - "Okay, sua tarefa \xE9 simples [PLAYERNAME], n\xF3s j\xE1 temos um viveiro que
+    vai abrigar diversas esp\xE9cies de animais, s\xF3 precisamos coloc\xE1-los nos
+    espa\xE7os certos para que eles possam descansar felizes! N\xE3o precisa ficar
+    preocupado se n\xE3o conhecer alguma esp\xE9cie, eu vou estar aqui pra te ajudar
+    a cumprir as necessidades deles!"
+  - "O importante \xE9 a gente garantir um lugar adequado para que n\xF3s possamos
+    reabilit\xE1-los e os devolver pra natureza, ent\xE3o sempre teremos uma grande
+    rota\xE7\xE3o de esp\xE9cies, o que \xE9 super legal pras nossas pesquisas! Que
+    tal come\xE7armos com esses daqui?"

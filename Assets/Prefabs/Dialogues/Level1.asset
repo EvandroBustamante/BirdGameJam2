@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Level1
   m_EditorClassIdentifier: 
   dialogueLines:
-  - AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-  - Teste 2
-  - AAAAAAA
+  - "Ah oi! Voc\xEA finalmente chegou, estamos precisando muito de ajuda! Fico muito
+    feliz que a Anelisa p\xF4de nos enviar um novo estagi\xE1rio, aqui est\xE1 uma
+    loucura sem tamanho!"
+  - "Nossa desculpa, nem me apresentei! Meu nome \xE9 Leticia, eu sou a bi\xF3loga
+    respons\xE1vel pelo centro de reabilita\xE7\xE3o de aves! Voc\xEA pode me dizer
+    seu nome novamente? Eu acabei me enrolando com esse caos todo!"
