@@ -53,13 +53,17 @@ public class CorujinhaDoMato : Bird
             isSatisfied = true;
             emojiHappy.SetActive(true);
             emojiSad.SetActive(false);
+            SpawnHappyVFX();
         }
         else
         {
             isSatisfied = false;
             emojiHappy.SetActive(false);
-            if(myBirdSlot)
+            if (myBirdSlot)
+            {
                 emojiSad.SetActive(true);
+                SpawnSadVFX();
+            }
         }
     }
 }

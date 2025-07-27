@@ -18,7 +18,7 @@ public class DragAndDrop : MonoBehaviour
 
     private void Start()
     {
-        AudioManager.Instance.PlayAmbDay();
+        //AudioManager.Instance.PlayAmbDay();
         AudioManager.Instance.PlayMusicLevelDay();
     }
 

@@ -13,6 +13,9 @@ public class Bird : MonoBehaviour
     public Sprite spriteHovering;
     public Sprite spritePlaced;
 
+    public GameObject happyVFX;
+    public GameObject sadVFX;
+
     [HideInInspector] public BirdSlot myBirdSlot;
     private BirdSlot hoveredBirdSlot;
     private Vector3 startingPosition;
@@ -211,5 +214,17 @@ public class Bird : MonoBehaviour
     {
         emojiHappy.SetActive(false);
         emojiSad.SetActive(false);
+    }
+
+    public void SpawnHappyVFX()
+    {
+        GameObject vfx = Instantiate(happyVFX, emojiHappy.transform.position, Quaternion.identity);
+        Destroy(vfx, 2f);
+    }
+
+    public void SpawnSadVFX()
+    {
+        GameObject vfx = Instantiate(sadVFX, emojiSad.transform.position, Quaternion.identity);
+        Destroy(vfx, 2f);
     }
 }

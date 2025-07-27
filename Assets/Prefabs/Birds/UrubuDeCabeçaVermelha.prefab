@@ -190,6 +190,8 @@ MonoBehaviour:
   spriteNormal: {fileID: 956347147254048090, guid: 253e32d6532a04b4abafbd5b021b9f01, type: 3}
   spriteHovering: {fileID: -8498237951013064110, guid: cbffddb6657253d4b9a709d481f72b3c, type: 3}
   spritePlaced: {fileID: 8344274495304934415, guid: ff40168be3eec664a9e335c58a70e365, type: 3}
+  happyVFX: {fileID: 263858722746546996, guid: 4f8159d80766489419b2394db5e050b4, type: 3}
+  sadVFX: {fileID: 7418706532244786085, guid: 18f547b8c12adde48b42cf28459fd388, type: 3}
   myBirdSlot: {fileID: 0}
   conditionsManager: {fileID: 0}
   isSatisfied: 0

@@ -276,6 +276,8 @@ MonoBehaviour:
   spriteNormal: {fileID: -2848286993761865909, guid: 7e88606110f0d7f4ea5d1021e26cb9e0, type: 3}
   spriteHovering: {fileID: -1036856074798382550, guid: ebdf3879dcdf9044facc95b2040e1294, type: 3}
   spritePlaced: {fileID: -6558555791964315450, guid: 023edad7b5438f540b89a2a0f00e141e, type: 3}
+  happyVFX: {fileID: 263858722746546996, guid: 4f8159d80766489419b2394db5e050b4, type: 3}
+  sadVFX: {fileID: 7418706532244786085, guid: 18f547b8c12adde48b42cf28459fd388, type: 3}
   myBirdSlot: {fileID: 0}
   conditionsManager: {fileID: 0}
   isSatisfied: 0
