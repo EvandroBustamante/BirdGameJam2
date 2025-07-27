@@ -16,7 +16,7 @@ public class DragAndDrop : MonoBehaviour
     [HideInInspector] public UnityEvent beginDragEvent;
     [HideInInspector] public UnityEvent endDragEvent;
 
-    private void Awake()
+    private void Start()
     {
         AudioManager.Instance.PlayAmbDay();
         AudioManager.Instance.PlayMusicLevelDay();

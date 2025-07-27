@@ -32,10 +32,13 @@ public class UrubuDeCabecaVermelha : Bird
             conditionNextToBird = false;
             foreach (BirdSlot AdjacentBirdSlot in myBirdSlot.adjacentBirdSlots)
             {
-                if (AdjacentBirdSlot.myBird != null)
+                if (AdjacentBirdSlot != null)
                 {
-                    conditionNextToBird = true;
-                    break;
+                    if (AdjacentBirdSlot.myBird != null)
+                    {
+                        conditionNextToBird = true;
+                        break;
+                    }
                 }
             }
         }

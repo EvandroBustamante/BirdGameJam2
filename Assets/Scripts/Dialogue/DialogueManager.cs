@@ -14,6 +14,7 @@ public class DialogueManager : MonoBehaviour
     public Dialogue dialogue2;
     public bool isLevel1 = false;
     public float dialogueTypeDelay;
+    public bool noDialogue = false;
 
     private int dialogueLinesIndex;
     private string playerName;
@@ -27,7 +28,8 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(false);
         inputField.gameObject.SetActive(false);
 
-        StartDialogue(dialogue);
+        if(!noDialogue)
+            StartDialogue(dialogue);
     }
 
     private void StartDialogue(Dialogue thisDialogue)
@@ -54,6 +56,7 @@ public class DialogueManager : MonoBehaviour
         else
         {
             dialoguePanel.SetActive(false);
+            StopAllCoroutines();
             AudioManager.Instance.PlayDialogueClose();
 
             if (isLevel1)

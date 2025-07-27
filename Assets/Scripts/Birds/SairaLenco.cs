@@ -18,10 +18,13 @@ public class SairaLenco : Bird
             conditionAwayFromPredatory = true;
             foreach (BirdSlot AdjacentBirdSlot in myBirdSlot.adjacentBirdSlots)
             {
-                if (AdjacentBirdSlot.myBird != null && AdjacentBirdSlot.myBird.isPredatory)
+                if (AdjacentBirdSlot != null)
                 {
-                    conditionAwayFromPredatory = false;
-                    break;
+                    if (AdjacentBirdSlot.myBird != null && AdjacentBirdSlot.myBird.isPredatory)
+                    {
+                        conditionAwayFromPredatory = false;
+                        break;
+                    }
                 }
             }
 

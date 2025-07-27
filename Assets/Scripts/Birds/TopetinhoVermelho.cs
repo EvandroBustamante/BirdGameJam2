@@ -18,10 +18,13 @@ public class TopetinhoVermelho : Bird
             conditionOnlyHummingBird = true;
             foreach (BirdSlot AdjacentBirdSlot in myBirdSlot.adjacentBirdSlots)
             {
-                if (AdjacentBirdSlot.myBird is TopetinhoVermelho)
+                if (AdjacentBirdSlot != null)
                 {
-                    conditionOnlyHummingBird = false;
-                    break;
+                    if (AdjacentBirdSlot.myBird is TopetinhoVermelho)
+                    {
+                        conditionOnlyHummingBird = false;
+                        break;
+                    }
                 }
             }
 

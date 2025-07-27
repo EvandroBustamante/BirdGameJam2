@@ -27,10 +27,13 @@ public class CorujinhaDoMato : Bird
             conditionSolitary = true;
             foreach (BirdSlot AdjacentBirdSlot in myBirdSlot.adjacentBirdSlots)
             {
-                if (AdjacentBirdSlot.myBird != null)
+                if (AdjacentBirdSlot != null)
                 {
-                    conditionSolitary = false;
-                    break;
+                    if (AdjacentBirdSlot.myBird != null)
+                    {
+                        conditionSolitary = false;
+                        break;
+                    }
                 }
             }
 
