@@ -1259,7 +1259,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &346309521
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1527,8 +1527,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Resumir
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 03fdec56ade6869449ff8c2e7c619a2f, type: 2}
+  m_sharedMaterial: {fileID: 5001388624950346757, guid: 03fdec56ade6869449ff8c2e7c619a2f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4636,6 +4636,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextLevel: SampleScene
   failPopUpTimeActive: 3
+  OnAllBirdsSatisfied:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &973059216
 Transform:
   m_ObjectHideFlags: 0
@@ -6132,8 +6135,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Voltar ao Menu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 03fdec56ade6869449ff8c2e7c619a2f, type: 2}
+  m_sharedMaterial: {fileID: 5001388624950346757, guid: 03fdec56ade6869449ff8c2e7c619a2f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8243,13 +8246,13 @@ MonoBehaviour:
       Data3: 1684186268
       Data4: 18910249
     Path: event:/sfx/gameplay/sfx_bird_wave_finish
-  birdWaveNew:
+  birdWaveEnd:
     Guid:
-      Data1: 1489875010
-      Data2: 1311098133
-      Data3: 1653520293
-      Data4: 1074334882
-    Path: event:/sfx/gameplay/sfx_bird_wave_new
+      Data1: -1588908050
+      Data2: 1266036065
+      Data3: -396899929
+      Data4: 1950368885
+    Path: event:/sfx/gameplay/sfx_bird_wave_end
   dialogueClose:
     Guid:
       Data1: -1706318801

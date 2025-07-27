@@ -31,12 +31,12 @@ public class Bird : MonoBehaviour
         startingPosition = transform.position;
         conditionUI = FindFirstObjectByType<ConditionsSpeechBubble>();
         conditionsManager = FindFirstObjectByType<ConditionsManager>();
+        conditionsManager.OnAllBirdsSatisfied.AddListener(TurnOffEmojis);
 
         emojiHappy = transform.Find("EmojiHappy").gameObject;
         emojiSad = transform.Find("EmojiSad").gameObject;
 
-        emojiHappy.SetActive(false);
-        emojiSad.SetActive(false);
+        TurnOffEmojis();
 
         isPredatory = false;
         isNoisy = false;
@@ -169,5 +169,11 @@ public class Bird : MonoBehaviour
     private void OnMouseExit()
     {
         conditionUI.Clear();
+    }
+
+    private void TurnOffEmojis()
+    {
+        emojiHappy.SetActive(false);
+        emojiSad.SetActive(false);
     }
 }

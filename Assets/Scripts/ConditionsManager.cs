@@ -1,12 +1,14 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 using System.Collections;
 
 public class ConditionsManager : MonoBehaviour
 {
     public string nextLevel;
     public float failPopUpTimeActive = 3.0f;
+    public GameObject poofVFX;
 
     private Bird[] AllBirds;
     private bool allBirdsSatisfied;
@@ -15,6 +17,8 @@ public class ConditionsManager : MonoBehaviour
 
     private Button CompleteCheckButton;
     private GameObject failPopUp;
+
+    [HideInInspector] public UnityEvent OnAllBirdsSatisfied;
 
     private void Awake()
     {
@@ -96,8 +100,28 @@ public class ConditionsManager : MonoBehaviour
     private IEnumerator SuccessTimer()
     {
         AudioManager.Instance.PlayStageConfirm();
+        AudioManager.Instance.PlayBirdWaveEnd();
+        OnAllBirdsSatisfied.Invoke();
 
         yield return new WaitForSeconds(1f);
+
+        foreach (Bird Bird in AllBirds)
+        {
+            Instantiate(poofVFX, Bird.transform.position, Quaternion.identity);
+            if(Bird.transform.Find("Sprite") != null)
+            {
+                Bird.transform.Find("Sprite").GetComponent<SpriteRenderer>().enabled = false;
+            }
+            else
+            {
+                Bird.GetComponent<SpriteRenderer>().enabled = false;
+            }
+            AudioManager.Instance.PlayBirdWaveFinish();
+            yield return new WaitForSeconds(0.3f);
+        }
+
+        yield return new WaitForSeconds(1f);
+
         AudioManager.Instance.StopAll();
         SceneManager.LoadScene(nextLevel);
     }

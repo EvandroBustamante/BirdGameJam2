@@ -25,7 +25,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private EventReference birdHappy;
     [SerializeField] private EventReference birdSad;
     [SerializeField] private EventReference birdWaveFinish;
-    [SerializeField] private EventReference birdWaveNew;
+    [SerializeField] private EventReference birdWaveEnd;
     [SerializeField] private EventReference dialogueClose;
     [SerializeField] private EventReference dialogueNext;
     [SerializeField] private EventReference dialoguePopUp;
@@ -124,9 +124,9 @@ public class AudioManager : MonoBehaviour
         RuntimeManager.PlayOneShot(birdWaveFinish);
     }
 
-    public void PlayBirdWaveNew()
+    public void PlayBirdWaveEnd()
     {
-        RuntimeManager.PlayOneShot(birdWaveNew);
+        RuntimeManager.PlayOneShot(birdWaveEnd);
     }
 
     public void PlayDialogueClose()
