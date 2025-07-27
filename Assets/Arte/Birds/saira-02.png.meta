@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 680dde46ae3d83849a7f5fbbdc908638
+guid: 5e95dfe1eaa4e824caa5bd0f28dade34
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4852500886143089286
-    second: sairadelenco-01_0
+      213: -6827008880252575943
+    second: saira-02_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sairadelenco-01_0
+      name: saira-02_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 314
-        height: 285
+        width: 310
+        height: 265
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68ab3d6a8db875340800000000000000
-      internalID: 4852500886143089286
+      spriteID: 93f9b1e28979141a0800000000000000
+      internalID: -6827008880252575943
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sairadelenco-01_0: 4852500886143089286
+      saira-02_0: -6827008880252575943
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
