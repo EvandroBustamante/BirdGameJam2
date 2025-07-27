@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 0ea1ae5f84e491c45b0d2f0458557138
+guid: 1b5bf1cd7862c5c43a61b007136abbe0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8930747050381297441
-    second: biologa-01_0
+      213: 6646011865143013539
+    second: biologa-02_0
   - first:
-      213: 4203078346408839938
-    second: biologa-01_1
+      213: 4081491709369406066
+    second: biologa-02_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: biologa-01_0
+      name: biologa-02_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 196
-        height: 243
+        width: 207
+        height: 217
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,18 +118,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd8b723ffdc9f0480800000000000000
-      internalID: -8930747050381297441
+      spriteID: 3a071ea44906b3c50800000000000000
+      internalID: 6646011865143013539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: biologa-01_1
+      name: biologa-02_1
       rect:
         serializedVersion: 2
-        x: 153
-        y: 20
+        x: 162
+        y: 19
         width: 555
         height: 552
       alignment: 0
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20bc5d8bc75545a30800000000000000
-      internalID: 4203078346408839938
+      spriteID: 2725aa2c51f54a830800000000000000
+      internalID: 4081491709369406066
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      biologa-01_0: -8930747050381297441
-      biologa-01_1: 4203078346408839938
+      biologa-02_0: 6646011865143013539
+      biologa-02_1: 4081491709369406066
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
