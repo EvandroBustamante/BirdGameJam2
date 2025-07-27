@@ -5,11 +5,12 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    public GameObject dialoguePanel;
-    public TextMeshProUGUI dialogueText;
-    public Button nextDialogueButton;
-    public TMP_InputField inputField;
-    public Button inputFieldButton;
+    private GameObject dialoguePanel;
+    private TextMeshProUGUI dialogueText;
+    private Button nextDialogueButton;
+    private TMP_InputField inputField;
+    private Button inputFieldButton;
+
     public Dialogue dialogue;
     public Dialogue dialogue2;
     public bool isLevel1 = false;
@@ -22,6 +23,12 @@ public class DialogueManager : MonoBehaviour
 
     private void Start()
     {
+        dialoguePanel = GameObject.Find("DialoguePanel");
+        dialogueText = dialoguePanel.transform.Find("DialogueText").GetComponent<TextMeshProUGUI>();
+        nextDialogueButton = dialoguePanel.transform.Find("NextLineButton").GetComponent<Button>();
+        inputField = GameObject.Find("DialogueInputField").GetComponent<TMP_InputField>();
+        inputFieldButton = inputField.transform.Find("Ok").GetComponent<Button>();
+
         nextDialogueButton.onClick.AddListener(NextDialogue);
         inputFieldButton.onClick.AddListener(StartDialogue2);
 
