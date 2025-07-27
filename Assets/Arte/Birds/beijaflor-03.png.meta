@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f42790bd0f998e4469bee2816499cce3
+guid: 023edad7b5438f540b89a2a0f00e141e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2514948362504211548
-    second: beijarflor-topetinho-01_0
+      213: -6558555791964315450
+    second: beijaflor-03_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: beijarflor-topetinho-01_0
+      name: beijaflor-03_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 522
-        height: 474
+        width: 302
+        height: 276
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a37c700acb191dd0800000000000000
-      internalID: -2514948362504211548
+      spriteID: 6c0e26481445bf4a0800000000000000
+      internalID: -6558555791964315450
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      beijarflor-topetinho-01_0: -2514948362504211548
+      beijaflor-03_0: -6558555791964315450
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
