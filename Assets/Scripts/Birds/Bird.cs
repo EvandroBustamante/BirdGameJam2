@@ -86,7 +86,10 @@ public class Bird : MonoBehaviour
             emojiSad.SetActive(false);
         }
 
-        conditionsManager.CheckAllBirds();
+        if(myBirdSlot)
+            conditionsManager.CheckAllBirds(false);
+        else
+            conditionsManager.CheckAllBirds(true);
     }
 
     public virtual void CheckForConditionsMet()

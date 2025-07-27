@@ -66,7 +66,7 @@ public class DragAndDrop : MonoBehaviour
             }
             else if (draggedBird is UrubuDeCabecaVermelha)
             {
-                //AudioManager.Instance.PlayUrubuDeCabecaVermelha();
+                AudioManager.Instance.PlayUrubuDeCabecaVermelha();
             }
             else if (draggedBird is Carcara)
             {

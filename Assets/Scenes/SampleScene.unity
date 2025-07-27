@@ -133,11 +133,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8303102067552469025, guid: 96538adce4554d6448bd4a011e4d2dd5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.44
+      value: 0.58
       objectReference: {fileID: 0}
     - target: {fileID: 8303102067552469025, guid: 96538adce4554d6448bd4a011e4d2dd5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.32
+      value: -2.25
       objectReference: {fileID: 0}
     - target: {fileID: 8303102067552469025, guid: 96538adce4554d6448bd4a011e4d2dd5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4309,6 +4309,9 @@ MonoBehaviour:
   likesToBeQuiet: 1
   likesToBeClean: 1
   doesntLikeDancing: 1
+  spriteNormal: {fileID: 0}
+  spriteHovering: {fileID: 0}
+  spritePlaced: {fileID: 0}
   myBirdSlot: {fileID: 0}
   conditionsManager: {fileID: 0}
   isSatisfied: 0
@@ -8138,6 +8141,13 @@ MonoBehaviour:
       Data3: -1288292462
       Data4: -1802181702
     Path: event:/sfx/birds/sfx_bird_ topetinhovermelho
+  urubuDeCabecaVermelha:
+    Guid:
+      Data1: 1785782001
+      Data2: 1170890087
+      Data3: 2113769112
+      Data4: 231832879
+    Path: event:/sfx/birds/sfx_bird_ urubudecabecavermelha
   birdHappy:
     Guid:
       Data1: 1142399173

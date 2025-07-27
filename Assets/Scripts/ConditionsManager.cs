@@ -30,7 +30,7 @@ public class ConditionsManager : MonoBehaviour
         failPopUp.SetActive(false);
     }
 
-    public void CheckAllBirds()
+    public void CheckAllBirds(bool wasLastBirdPlacedClearArea)
     {
         playSadSound = false;
         int birdsSatisfied = 0;
@@ -61,12 +61,12 @@ public class ConditionsManager : MonoBehaviour
             allBirdsSatisfied = false;
         }
 
-        if (playSadSound)
+        if (playSadSound && !wasLastBirdPlacedClearArea)
         {
             AudioManager.Instance.PlayBirdSad();
             //Debug.Log("Played bird sad");
         }
-        else
+        else if (!playSadSound && !wasLastBirdPlacedClearArea)
         {
             AudioManager.Instance.PlayBirdHappy();
             //Debug.Log("Played bird happy");

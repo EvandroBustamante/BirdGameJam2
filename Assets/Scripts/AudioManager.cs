@@ -20,6 +20,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private EventReference sairaLenco;
     [SerializeField] private EventReference tangara;
     [SerializeField] private EventReference topetinhoVermelho;
+    [SerializeField] private EventReference urubuDeCabecaVermelha;
 
     [Header("SFX Gameplay")]
     [SerializeField] private EventReference birdHappy;
@@ -106,6 +107,12 @@ public class AudioManager : MonoBehaviour
     {
         RuntimeManager.PlayOneShot(topetinhoVermelho);
     }
+
+    public void PlayUrubuDeCabecaVermelha()
+    {
+        RuntimeManager.PlayOneShot(urubuDeCabecaVermelha);
+    }
+
     #endregion
 
     #region SFX Gameplay
