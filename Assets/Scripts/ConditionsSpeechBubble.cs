@@ -5,7 +5,7 @@ using TMPro;
 public class ConditionsSpeechBubble : MonoBehaviour
 {
     private Image myImage;
-    private TextMeshProUGUI birdName;
+    //private TextMeshProUGUI birdName;
     private TextMeshProUGUI birdConditions;
 
     [HideInInspector] public Bird hoveredBird;
@@ -13,7 +13,7 @@ public class ConditionsSpeechBubble : MonoBehaviour
     private void Awake()
     {
         myImage = GetComponent<Image>();
-        birdName = transform.Find("BirdName").GetComponent<TextMeshProUGUI>();
+        //birdName = transform.Find("BirdName").GetComponent<TextMeshProUGUI>();
         birdConditions = transform.Find("BirdConditions").GetComponent<TextMeshProUGUI>();
 
         Clear();
@@ -22,7 +22,7 @@ public class ConditionsSpeechBubble : MonoBehaviour
     public void Clear()
     {
         myImage.enabled = false;
-        birdName.enabled = false;
+        //birdName.enabled = false;
         birdConditions.enabled = false;
 
         hoveredBird = null;
@@ -33,7 +33,7 @@ public class ConditionsSpeechBubble : MonoBehaviour
         if(hoveredBird == null)
         {
             hoveredBird = newBird;
-            birdName.text = hoveredBird.myName;
+            //birdName.text = hoveredBird.myName;
             string newText = "";
             foreach (string Condition in hoveredBird.myConditions)
             {
@@ -41,7 +41,7 @@ public class ConditionsSpeechBubble : MonoBehaviour
             }
             birdConditions.text = newText;
 
-            birdName.enabled = true;
+            //birdName.enabled = true;
             birdConditions.enabled = true;
             myImage.enabled = true;
         }
