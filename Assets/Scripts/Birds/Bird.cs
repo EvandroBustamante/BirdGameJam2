@@ -104,10 +104,13 @@ public class Bird : MonoBehaviour
             {
                 foreach (BirdSlot AdjacentBirdSlot in myBirdSlot.adjacentBirdSlots)
                 {
-                    if (AdjacentBirdSlot.myBird != null && AdjacentBirdSlot.myBird.isNoisy)
+                    if (AdjacentBirdSlot != null)
                     {
-                        isNextToNoisyBirds = true;
-                        break;
+                        if (AdjacentBirdSlot.myBird != null && AdjacentBirdSlot.myBird.isNoisy)
+                        {
+                            isNextToNoisyBirds = true;
+                            break;
+                        }
                     }
                 }
             }
@@ -126,10 +129,13 @@ public class Bird : MonoBehaviour
             {
                 foreach (BirdSlot AdjacentBirdSlot in myBirdSlot.adjacentBirdSlots)
                 {
-                    if (AdjacentBirdSlot.myBird != null && AdjacentBirdSlot.myBird.isDirty)
+                    if (AdjacentBirdSlot != null)
                     {
-                        isNextToDirtyBirds = true;
-                        break;
+                        if (AdjacentBirdSlot.myBird != null && AdjacentBirdSlot.myBird.isDirty)
+                        {
+                            isNextToDirtyBirds = true;
+                            break;
+                        }
                     }
                 }
             }
@@ -148,10 +154,13 @@ public class Bird : MonoBehaviour
             {
                 foreach (BirdSlot AdjacentBirdSlot in myBirdSlot.adjacentBirdSlots)
                 {
-                    if (AdjacentBirdSlot.myBird != null && AdjacentBirdSlot.myBird.dances)
+                    if (AdjacentBirdSlot != null)
                     {
-                        isNextToDancyBirds = true;
-                        break;
+                        if (AdjacentBirdSlot.myBird != null && AdjacentBirdSlot.myBird.dances)
+                        {
+                            isNextToDancyBirds = true;
+                            break;
+                        }
                     }
                 }
             }
