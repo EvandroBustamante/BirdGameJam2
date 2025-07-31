@@ -8,7 +8,7 @@ public class Carcara : Bird
 
     //Comportamento: é predatório
 
-    private bool conditionSolitary = false;
+    //private bool conditionSolitary = false;
     private bool conditionLightPlace = false;
 
     public override void Awake()
@@ -24,18 +24,18 @@ public class Carcara : Bird
 
         if (myBirdSlot)
         {
-            conditionSolitary = true;
-            foreach (BirdSlot AdjacentBirdSlot in myBirdSlot.adjacentBirdSlots)
-            {
-                if (AdjacentBirdSlot != null)
-                {
-                    if (AdjacentBirdSlot.myBird != null)
-                    {
-                        conditionSolitary = false;
-                        break;
-                    }
-                }
-            }
+            //conditionSolitary = true;
+            //foreach (BirdSlot AdjacentBirdSlot in myBirdSlot.adjacentBirdSlots)
+            //{
+            //    if (AdjacentBirdSlot != null)
+            //    {
+            //        if (AdjacentBirdSlot.myBird != null)
+            //        {
+            //            conditionSolitary = false;
+            //            break;
+            //        }
+            //    }
+            //}
 
             if (myBirdSlot.isLightSlot == true)
                 conditionLightPlace = true;
@@ -44,11 +44,11 @@ public class Carcara : Bird
         }
         else
         {
-            conditionSolitary = false;
+            //conditionSolitary = false;
             conditionLightPlace = false;
         }
 
-        if (conditionGenerics && conditionSolitary && conditionLightPlace)
+        if (conditionGenerics && conditionLightPlace)
         {
             isSatisfied = true;
             emojiHappy.SetActive(true);
