@@ -370,7 +370,7 @@ MonoBehaviour:
   - {fileID: 921867336}
   isLightSlot: 1
   isNearWater: 0
-  isNearFlower: 1
+  isNearFlower: 0
   myBird: {fileID: 0}
 --- !u!61 &199223050
 BoxCollider2D:
@@ -666,16 +666,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64d49ee467f3fe3468999127093cb968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 853734728}
-  dialogueText: {fileID: 774541769}
-  nextDialogueButton: {fileID: 1201745627}
-  inputField: {fileID: 1815599239}
-  inputFieldButton: {fileID: 1270795654}
   dialogue: {fileID: 11400000, guid: bf99bb6b987c51d49a064e5967eae18d, type: 2}
   dialogue2: {fileID: 11400000, guid: 701145849094e344191fdd443e910eb9, type: 2}
   isLevel1: 1
   dialogueTypeDelay: 0.03
   noDialogue: 0
+  OnDialogueEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &276344353
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1407,7 +1405,7 @@ MonoBehaviour:
   - {fileID: 199223049}
   - {fileID: 1711557506}
   - {fileID: 830256035}
-  isLightSlot: 0
+  isLightSlot: 1
   isNearWater: 0
   isNearFlower: 0
   myBird: {fileID: 0}
@@ -2071,17 +2069,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &774541769 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8701754764668431617, guid: 3e1e2fb2bf1375a4b85896fde1d3726f, type: 3}
-  m_PrefabInstance: {fileID: 852785973034077478}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &809456896
 GameObject:
   m_ObjectHideFlags: 0
@@ -2286,11 +2273,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &853734728 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5704646541254001424, guid: 3e1e2fb2bf1375a4b85896fde1d3726f, type: 3}
-  m_PrefabInstance: {fileID: 852785973034077478}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &921867334
 GameObject:
   m_ObjectHideFlags: 0
@@ -2513,6 +2495,8 @@ MonoBehaviour:
   spriteNormal: {fileID: 0}
   spriteHovering: {fileID: 0}
   spritePlaced: {fileID: 0}
+  happyVFX: {fileID: 0}
+  sadVFX: {fileID: 0}
   myBirdSlot: {fileID: 0}
   conditionsManager: {fileID: 0}
   isSatisfied: 0
@@ -2704,7 +2688,7 @@ MonoBehaviour:
   - {fileID: 1845435849}
   - {fileID: 1212206148}
   isLightSlot: 1
-  isNearWater: 1
+  isNearWater: 0
   isNearFlower: 0
   myBird: {fileID: 0}
 --- !u!61 &951970560
@@ -3355,17 +3339,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1201745627 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3905393033220776162, guid: 3e1e2fb2bf1375a4b85896fde1d3726f, type: 3}
-  m_PrefabInstance: {fileID: 852785973034077478}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1212206146
 GameObject:
   m_ObjectHideFlags: 0
@@ -3885,17 +3858,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.57618904, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1270795654 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2489363345609607820, guid: 3e1e2fb2bf1375a4b85896fde1d3726f, type: 3}
-  m_PrefabInstance: {fileID: 852785973034077478}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1317051029
 GameObject:
   m_ObjectHideFlags: 0
@@ -4112,7 +4074,7 @@ MonoBehaviour:
   - {fileID: 1918782208}
   - {fileID: 627287727}
   isLightSlot: 1
-  isNearWater: 1
+  isNearWater: 0
   isNearFlower: 0
   myBird: {fileID: 0}
 --- !u!61 &1317613572
@@ -4368,7 +4330,7 @@ MonoBehaviour:
   - {fileID: 2087517550}
   isLightSlot: 1
   isNearWater: 0
-  isNearFlower: 1
+  isNearFlower: 0
   myBird: {fileID: 0}
 --- !u!61 &1609213667
 BoxCollider2D:
@@ -4768,7 +4730,7 @@ MonoBehaviour:
   - {fileID: 1845435849}
   - {fileID: 951970559}
   isLightSlot: 1
-  isNearWater: 1
+  isNearWater: 0
   isNearFlower: 0
   myBird: {fileID: 0}
 --- !u!61 &1733976154
@@ -5121,17 +5083,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1815599239 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6013445608904635613, guid: 3e1e2fb2bf1375a4b85896fde1d3726f, type: 3}
-  m_PrefabInstance: {fileID: 852785973034077478}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1845435847
 GameObject:
   m_ObjectHideFlags: 0
@@ -5182,8 +5133,8 @@ MonoBehaviour:
   - {fileID: 1733976153}
   - {fileID: 1918782208}
   - {fileID: 951970559}
-  isLightSlot: 0
-  isNearWater: 1
+  isLightSlot: 1
+  isNearWater: 0
   isNearFlower: 0
   myBird: {fileID: 0}
 --- !u!61 &1845435850
@@ -5684,7 +5635,7 @@ MonoBehaviour:
   - {fileID: 951970559}
   - {fileID: 1212206148}
   isLightSlot: 1
-  isNearWater: 1
+  isNearWater: 0
   isNearFlower: 0
   myBird: {fileID: 0}
 --- !u!61 &1918782209
@@ -6323,7 +6274,7 @@ MonoBehaviour:
   - {fileID: 1733976153}
   - {fileID: 1918782208}
   isLightSlot: 1
-  isNearWater: 1
+  isNearWater: 0
   isNearFlower: 0
   myBird: {fileID: 0}
 --- !u!61 &2061871458
