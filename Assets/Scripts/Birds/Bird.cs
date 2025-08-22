@@ -181,13 +181,23 @@ public class Bird : MonoBehaviour
     {
         if (collision.CompareTag("BirdSlot"))
         {
+            if (hoveredBirdSlot) hoveredBirdSlot.UnmarkAdjacents();
             hoveredBirdSlot = collision.GetComponent<BirdSlot>();
+            hoveredBirdSlot.MarkAdjacents();
         }
         else if (collision.CompareTag("ClearArea"))
         {
             hoveredBirdSlot = null;
         }
     }
+
+    //private void OnTriggerExit2D(Collider2D collision)
+    //{
+    //    if (collision.CompareTag("BirdSlot"))
+    //    {
+    //        collision.GetComponent<BirdSlot>().UnmarkAdjacents();
+    //    }
+    //}
 
     private void OnMouseOver()
     {
