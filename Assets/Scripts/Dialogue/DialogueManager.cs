@@ -21,6 +21,7 @@ public class DialogueManager : MonoBehaviour
     private int dialogueLinesIndex;
     private string playerName;
     private Dialogue dialoguePlaying;
+    private bool isTyping = false;
 
     [HideInInspector] public UnityEvent OnDialogueEnd;
 
@@ -57,25 +58,34 @@ public class DialogueManager : MonoBehaviour
 
     private void NextDialogue()
     {
-        if (dialogueLinesIndex < dialoguePlaying.dialogueLines.Length - 1)
+        if (isTyping)
         {
-            dialogueLinesIndex++;
-            string finalDialogue = dialoguePlaying.dialogueLines[dialogueLinesIndex].Replace("[PLAYERNAME]", playerName);
             StopAllCoroutines();
-            StartCoroutine(TypeSentence(finalDialogue));
-            AudioManager.Instance.PlayDialogueNext();
+            dialogueText.text = dialoguePlaying.dialogueLines[dialogueLinesIndex].Replace("[PLAYERNAME]", playerName);
+            isTyping = false;
         }
         else
         {
-            dialoguePanel.SetActive(false);
-            StopAllCoroutines();
-            AudioManager.Instance.PlayDialogueClose();
-            OnDialogueEnd.Invoke();
-
-            if (isLevel1)
+            if (dialogueLinesIndex < dialoguePlaying.dialogueLines.Length - 1)
             {
-                isLevel1 = false;
-                inputField.gameObject.SetActive(true);
+                dialogueLinesIndex++;
+                string finalDialogue = dialoguePlaying.dialogueLines[dialogueLinesIndex].Replace("[PLAYERNAME]", playerName);
+                StopAllCoroutines();
+                StartCoroutine(TypeSentence(finalDialogue));
+                AudioManager.Instance.PlayDialogueNext();
+            }
+            else
+            {
+                dialoguePanel.SetActive(false);
+                StopAllCoroutines();
+                AudioManager.Instance.PlayDialogueClose();
+                OnDialogueEnd.Invoke();
+
+                if (isLevel1)
+                {
+                    isLevel1 = false;
+                    inputField.gameObject.SetActive(true);
+                }
             }
         }
     }
@@ -83,12 +93,14 @@ public class DialogueManager : MonoBehaviour
     private IEnumerator TypeSentence(string sentence)
     {
         dialogueText.text = "";
+        isTyping = true;
         foreach (char letter in sentence.ToCharArray())
         {
             AudioManager.Instance.PlayDialogueText();
             dialogueText.text += letter;
             yield return new WaitForSeconds(dialogueTypeDelay);
         }
+        isTyping = false;
     }
      private void StartDialogue2()
     {

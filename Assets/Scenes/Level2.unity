@@ -6794,7 +6794,7 @@ MonoBehaviour:
   dialogue: {fileID: 11400000, guid: fcb3196fe47b7eb4a98159ef245a83d3, type: 2}
   dialogue2: {fileID: 11400000, guid: 701145849094e344191fdd443e910eb9, type: 2}
   isLevel1: 0
-  dialogueTypeDelay: 0.05
+  dialogueTypeDelay: 0.03
   noDialogue: 0
   OnDialogueEnd:
     m_PersistentCalls:

@@ -148,10 +148,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64d49ee467f3fe3468999127093cb968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: bf99bb6b987c51d49a064e5967eae18d, type: 2}
+  dialogue: {fileID: 11400000, guid: ae18a218f7b6b494288d87a5d682da9e, type: 2}
   dialogue2: {fileID: 11400000, guid: 701145849094e344191fdd443e910eb9, type: 2}
   isLevel1: 0
-  dialogueTypeDelay: 0.05
+  dialogueTypeDelay: 0.03
   noDialogue: 0
   OnDialogueEnd:
     m_PersistentCalls:
