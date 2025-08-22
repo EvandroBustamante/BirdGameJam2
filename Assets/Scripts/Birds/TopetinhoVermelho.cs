@@ -8,6 +8,7 @@ public class TopetinhoVermelho : Bird
 
     private bool conditionOnlyHummingBird;
     private bool conditionIsNextToFlower;
+    private bool conditionAwayFromPredatory = false;
 
     public override void CheckForConditionsMet()
     {
@@ -32,14 +33,28 @@ public class TopetinhoVermelho : Bird
                 conditionIsNextToFlower = true;
             else
                 conditionIsNextToFlower = false;
+
+            conditionAwayFromPredatory = true;
+            foreach (BirdSlot AdjacentBirdSlot in myBirdSlot.adjacentBirdSlots)
+            {
+                if (AdjacentBirdSlot != null)
+                {
+                    if (AdjacentBirdSlot.myBird != null && AdjacentBirdSlot.myBird.isPredatory)
+                    {
+                        conditionAwayFromPredatory = false;
+                        break;
+                    }
+                }
+            }
         }
         else
         {
             conditionOnlyHummingBird = false;
             conditionIsNextToFlower = false;
+            conditionAwayFromPredatory = false;
         }
 
-        if (conditionGenerics && conditionOnlyHummingBird && conditionIsNextToFlower)
+        if (conditionGenerics && conditionOnlyHummingBird && conditionIsNextToFlower && conditionAwayFromPredatory)
         {
             isSatisfied = true;
             emojiHappy.SetActive(true);
